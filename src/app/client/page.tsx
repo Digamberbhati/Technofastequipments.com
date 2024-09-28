@@ -7,8 +7,8 @@ const Careerspage = () => {
         {/* Client Testimonial Section */}
         <section className="py-16 bg-zinc-900">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-4xl font-bold text-gray-800 mb-8">Our Clients</h2>
-            <p className="text-lg text-gray-600 mb-12">
+            <h2 className="text-4xl font-bold text-white mb-8">Our Clients</h2>
+            <p className="text-lg text-white mb-12">
               We value the relationships we build with our clients. Here's what they have to say about our work.
             </p>
 
