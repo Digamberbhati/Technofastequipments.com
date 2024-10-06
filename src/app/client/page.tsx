@@ -30,6 +30,7 @@ const Careerspage = () => {
                 <p className="text-gray-500">CTO, Tech Innovators</p>
                 <p className="mt-4 text-gray-600">
                   "Their team goes above and beyond to meet our needs. Highly recommend!"
+                  chaman gandu
                 </p>
               </div>
 
