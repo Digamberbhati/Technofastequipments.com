@@ -10,7 +10,8 @@ const Careerspage = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
           <h1 className="text-5xl font-bold text-white">Careers at Our Company</h1>
           <p className="mt-4 text-lg text-indigo-200">
-            Join our team and help shape the future!
+            Join our team and help shape the future
+            chama !
           </p>
         </div>
       </div>
