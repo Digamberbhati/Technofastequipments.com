@@ -4,7 +4,8 @@ const Supportpage = () => {
   return (
     <div className='bg-gray-100'>
       {/* Support Section */}
-      <section className='py-12 bg-zinc-900'>
+      <br/>
+      <section className='py-12 bg-white'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
           <h2 className='text-base font-semibold text-indigo-600 tracking-wide uppercase'>Support</h2>
           <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
@@ -18,7 +19,7 @@ const Supportpage = () => {
         <div className='mt-10'>
           <div className='flex justify-center space-x-8'>
             {/* Support Card 1 */}
-            <div className='bg-white shadow-lg rounded-lg p-6 max-w-sm text-center'>
+            <div className='bg-slate-300 shadow-lg rounded-lg p-6 max-w-sm text-center'>
               <div className='mb-4'>
                 <svg className='w-12 h-12 mx-auto text-indigo-600' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7' />
@@ -30,7 +31,7 @@ const Supportpage = () => {
             </div>
 
             {/* Support Card 2 */}
-            <div className='bg-white shadow-lg rounded-lg p-6 max-w-sm text-center'>
+            <div className='bg-slate-300 shadow-lg rounded-lg p-6 max-w-sm text-center'>
               <div className='mb-4'>
                 <svg className='w-12 h-12 mx-auto text-indigo-600' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M5 13l4 4L19 7' />
@@ -42,7 +43,7 @@ const Supportpage = () => {
             </div>
 
             {/* Support Card 3 */}
-            <div className='bg-white shadow-lg rounded-lg p-6 max-w-sm text-center'>
+            <div className='bg-slate-300 shadow-lg rounded-lg p-6 max-w-sm text-center'>
               <div className='mb-4'>
                 <svg className='w-12 h-12 mx-auto text-indigo-600' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M12 8v4m0 4h.01M12 5a7 7 0 110 14 7 7 0 010-14z' />

@@ -56,6 +56,13 @@ const Homepage = () => {
       <p className="text-orange-700 mb-4">
         These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
       </p>
+
+      <p className="text-orange-700 mb-4">
+        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
+      </p>
+      <p className="text-orange-700 mb-4">
+        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
+      </p>
     </div>
 
 
@@ -247,7 +254,7 @@ const Homepage = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {/* <!-- Contact Form --> */}
-      <div className="bg-blue-700 p-8 rounded-lg shadow-lg">
+      <div className="bg-gradient-to-r from-blue-500 to-blue-100 p-8 rounded-lg shadow-lg">
         <h3 className="text-2xl font-semibold text-white mb-6">Send Us a Message</h3>
         <form action="#">
           <div className="mb-4">
