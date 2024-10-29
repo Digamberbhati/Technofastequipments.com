@@ -255,19 +255,19 @@ const Homepage = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {/* <!-- Contact Form --> */}
       <div className="bg-blue-700 p-8 rounded-lg shadow-lg">
-        <h3 className="text-2xl font-semibold text-gray-800 mb-6">Send Us a Message</h3>
+        <h3 className="text-2xl font-semibold text-white mb-6">Send Us a Message</h3>
         <form action="#">
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700">Your Name</label>
-            <input type="text" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="John Doe"/>
+            <label className="block text-sm font-medium text-white">Your Name</label>
+            <input type="text" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-black" placeholder="John Doe"/>
           </div>
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700">Email Address</label>
-            <input type="email" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="you@example.com"/>
+            <label className="block text-sm font-medium text-white">Email Address</label>
+            <input type="email" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500  text-black" placeholder="you@example.com"/>
           </div>
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700">Message</label>
-            <textarea rows="4" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" placeholder="Type your message here..."></textarea>
+            <label className="block text-sm font-medium text-white">Message</label>
+            <textarea rows="4" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-black" placeholder="Type your message here..."></textarea>
           </div>
           <button type="submit" className="w-full bg-black text-white py-3 rounded-lg shadow-lg hover:bg-white hover:text-black transition duration-300">Send Message</button>
         </form>
