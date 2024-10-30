@@ -40,7 +40,7 @@ const Homepage = () => {
       <div className="container mx-auto my-10 p-6 bg-blue-200">
   {/* <!-- Title Section --> */}
   <div className="text-center mb-6">
-    <h1 className="text-4xl font-bold mb-4 text-black">Technofast EquipmentsPVT. LTD.</h1>
+    <h1 className="text-4xl font-bold mb-4 text-black">Technofast Equipments Pvt. Ltd.</h1>
     <p className="text-2xl text-blue-700 font-semibold ">
       Delivering a range of sturdy and functionally efficient Packaging Machines for the food & beverage industry... Our offering products are Food Packing Machine, Pouch Packaging Machine, Namkeen Packing Machine, Snacks Packing Machine, Liquid Packing Machine etc.
     </p>

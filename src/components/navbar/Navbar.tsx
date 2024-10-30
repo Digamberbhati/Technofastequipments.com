@@ -4,6 +4,9 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
+// Logo link (replace this with the actual logo link)
+const logoUrl = "https://5.imimg.com/data5/SELLER/Logo/2024/4/408631371/OJ/HE/MU/66460055/techno-120x120.jpg";
+
 export function NavbarMenu() {
   return (
     <div className="relative w-full flex items-center justify-center">
@@ -22,7 +25,9 @@ function Navbar({ className }: { className?: string }) {
         <div className="flex w-full items-center justify-between py-4 px-4 md:px-8">
           {/* Logo */}
           <div className="text-2xl font-bold">
-            LOGO
+            <Link href="/">
+              <img src={"https://5.imimg.com/data5/SELLER/Logo/2024/4/408631371/OJ/HE/MU/66460055/techno-120x120.jpg"} alt="Logo" className="h-12 w-auto" />
+            </Link>
           </div>
 
           {/* Hamburger menu for mobile */}
