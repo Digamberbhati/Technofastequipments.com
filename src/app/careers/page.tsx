@@ -6,10 +6,10 @@ const Careerspage = () => {
     <br />
     <div className="bg-gray-100 min-h-screen">
       {/* Header Section */}
-      <div className="bg-zinc-900 py-12">
+      <div className="bg-slate-100 py-12">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 text-center">
-          <h1 className="text-5xl font-bold text-white">Careers at Our Company</h1>
-          <p className="mt-4 text-lg text-indigo-200">
+          <h1 className="text-5xl font-bold text-red-800">Careers at Our Company</h1>
+          <p className="mt-4 text-lg text-indigo-600">
             Join our team and help shape the future
             chama !
           </p>

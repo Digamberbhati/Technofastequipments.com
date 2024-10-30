@@ -5,14 +5,8 @@ const Aboutpage = () => {
     <>
 
 
-      <section className="bg-gray-800 py-20">
-        <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-12">
-          <h1 className="text-5xl font-bold text-stone-400 mb-4">About Us</h1>
-          <p className="text-lg text-gray-300 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quas quod consectetur ab harum perspiciatis exercitationem obcaecati repellat illum accusantium, quos magnam nesciunt eligendi beatae ipsa debitis suscipit. Vitae, aliquam.</p>
-        </div>
-      </section>
 
-      <div className="bg-gray-900 text-gray-300 py-16">
+      <div className="bg-slate-200 text-gray-300 py-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* <!-- Left Section: Image or Icon and Text --> */}
           <div className="flex flex-col items-center text-center md:text-left">
@@ -47,7 +41,7 @@ const Aboutpage = () => {
       {/* Hero Section */}
 
       {/* Our Story Section */}
-      <section className="bg-gray-900 py-20">
+      <section className="bg-slate-400 py-20">
         <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-12">
           <h2 className="text-4xl font-bold text-stone-300 mb-4">Our Story</h2>
           <p className="text-lg text-slate-200 mb-6">We're passionate about delivering innovative solutions.</p>
@@ -64,7 +58,7 @@ const Aboutpage = () => {
       </section>
 
       {/* Team Section */}
-      <section className="bg-gray-800 py-20">
+      <section className="bg-gray-500 py-20">
         <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Meet Our Team</h2>
           <div className="flex flex-wrap -mx-4">

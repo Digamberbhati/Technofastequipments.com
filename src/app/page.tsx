@@ -37,11 +37,11 @@ const Homepage = () => {
 
       {/* container section */}
 
-      <div className="container mx-auto my-10 p-6">
+      <div className="container mx-auto my-10 p-6 bg-blue-200">
   {/* <!-- Title Section --> */}
   <div className="text-center mb-6">
     <h1 className="text-4xl font-bold mb-4 text-black">Technofast EquipmentsPVT. LTD.</h1>
-    <p className="text-lg text-blue-600 font-semibold">
+    <p className="text-2xl text-blue-700 font-semibold ">
       Delivering a range of sturdy and functionally efficient Packaging Machines for the food & beverage industry... Our offering products are Food Packing Machine, Pouch Packaging Machine, Namkeen Packing Machine, Snacks Packing Machine, Liquid Packing Machine etc.
     </p>
   </div>
@@ -50,10 +50,17 @@ const Homepage = () => {
   <div className="grid md:grid-cols-2 gap-6">
     {/* <!-- Text Section --> */}
     <div>
-      <p className="text-orange-700 mb-4">
+      <p className="text-black mb-4">
         Packaging plays a vital role in almost every sector, amongst which Food & Beverage Industry requires superior levels. Adhering to this, we, Flexo Pack Machines Pvt. Ltd., are an eminent manufacturer, exporter and supplier of Pouch Packaging Machine, Tea Packing Machine, Snacks Packing Machine, Flour Packing Machine, Spices Packing Machine, and more.
       </p>
-      <p className="text-orange-700 mb-4">
+      <p className="text-black mb-4">
+        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
+      </p>
+
+      <p className="text-black mb-4">
+        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
+      </p>
+      <p className="text-black mb-4">
         These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
       </p>
     </div>
@@ -170,10 +177,10 @@ const Homepage = () => {
 
 
       <h2
-        className="text-3xl font-bold text-center text-pink-950  py-3 px-9 rounded-full shadow-md hover:shadow-lg transition duration-300 hover:text-white">
+        className="text-3xl font-bold text-center text-pink-950  py-3 px-9 rounded-full shadow-md hover:shadow-lg transition duration-300 hover:text-white bg-blue-200">
         Our Most Popular Machines</h2>
 
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 bg-blue-200">
         <div
           className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
 
@@ -237,8 +244,8 @@ const Homepage = () => {
     
       <section className="bg-white py-16">
   <div className="container mx-auto px-6 text-center">
-    <h2 className="text-4xl font-bold text-green-600 hover:text-green-800 mb-4">Let's Talk Business</h2>
-    <p className="text-lg text-white mb-8">
+    <h2 className="text-4xl font-bold text-slate-950 hover:text-green-800 mb-4">Let's Talk Business</h2>
+    <p className="text-lg text-green-800 mb-8">
       Whether you're looking for collaboration or want to learn more about our services, we're here to help. Let's discuss how we can work together!
     </p>
 
@@ -247,7 +254,7 @@ const Homepage = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {/* <!-- Contact Form --> */}
-      <div className="bg-blue-700 p-8 rounded-lg shadow-lg">
+      <div className="bg-gradient-to-r from-blue-500 to-blue-100 p-8 rounded-lg shadow-lg">
         <h3 className="text-2xl font-semibold text-white mb-6">Send Us a Message</h3>
         <form action="#">
           <div className="mb-4">
@@ -267,7 +274,7 @@ const Homepage = () => {
       </div>
 
       {/* <!-- Contact Information --> */}
-      <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
+      <div className="bg-gradient-to-r from-slate-600 to-slate-500 p-8 rounded-lg shadow-lg">
         <h3 className="text-2xl font-semibold text-gray-800 mb-6">Contact Information</h3>
         <ul>
           <li className="mb-4">
