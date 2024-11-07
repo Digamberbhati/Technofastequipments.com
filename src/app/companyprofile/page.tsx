@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Aboutpage = () => {
+const companyprofile = () => {
   return (
     <>
 
@@ -17,9 +17,9 @@ const Aboutpage = () => {
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v4m-2-4a2 2 0 114 0m-6 0a6 6 0 1112 0" />
               </svg>
             </div>
-            <h3 className="mt-4 text-xl font-semibold text-white">Phoebe Caulfield</h3>
+            <h3 className="mt-4 text-xl font-semibold text-black">Phoebe Caulfield</h3>
             <div className="mt-2 h-0.5 bg-blue-500 w-16"></div>
-            <p className="mt-4 text-sm leading-relaxed">
+            <p className="mt-4 text-sm leading-relaxed text-slate-800">
               Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.
             </p>
           </div>
@@ -109,4 +109,4 @@ const Aboutpage = () => {
   )
 }
 
-export default Aboutpage
+export default companyprofile
