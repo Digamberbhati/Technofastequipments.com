@@ -29,10 +29,16 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold uppercase">Follow us</h2>
               <ul className="font-medium">
                 <li className="mb-4">
-                  <Link href="#" className="hover:text-zinc-100 font-medium">Github</Link>
+                  <Link href="#" className="hover:text-zinc-100 font-medium">Instagram</Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-zinc-100 font-medium">Discord</Link>
+                  <Link href="#" className="hover:text-zinc-100 font-medium">Linkdin</Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-zinc-100 font-medium">Faceook</Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-zinc-100 font-medium">WhatsApp</Link>
                 </li>
               </ul>
             </div>
