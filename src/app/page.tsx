@@ -1,7 +1,8 @@
 
 import React from 'react';
 import TypingAnimation from "@/components/ui/typing-animation";
-import 
+import Image from 'next/image';
+import matal from '../img/matal.jpg'
 
 
 
@@ -14,24 +15,9 @@ const Homepage = () => {
 <section className='bg-white'>
 
 <br/><br/>
-<section
 
-
-  className="relative h-screen bg-cover bg-center"
-  
-  style={{
-    
-    
-    backgroundImage: "url(https://images.squarespace-cdn.com/content/v1/603fd74a95919623acf12ed9/d5ed410a-96cc-4f97-9e3f-83a63dba3345/Communicate+like+a+pro+%7C+Adult+Communication+Skills+%7C+Life+Skills+for+Adults+in+Michigan+%7C+Online+Therapist+in+Michigan+%7C+48044+%7C+48042+%7C+48047+%7C+48315)"
-
-    
-  }}
-  
-  
->
-
-</section>
-
+<img src="img\metal .jpg" alt="Matal" />
+<img src="/logo.svg" alt="Logo" />
 
 
 
@@ -41,8 +27,8 @@ const Homepage = () => {
       <div className="container mx-auto my-10 p-6 ">
   {/* <!-- Title Section --> */}
   <div className="text-center mb-6">
-    <h1 className="text-4xl font-bold mb-4 text-black">Technofast EquipmentsPVT. LTD.</h1>
-    <p className="text-2xl text-blue-700 font-semibold ">
+    <h1 className="text-4xl font-bold mb-4 text-black font-serif">Technofast EquipmentsPVT. LTD.</h1>
+    <p className="text-2xl text-blue-700 font-extrabold">
       Delivering a range of sturdy and functionally efficient Packaging Machines for the food & beverage industry... Our offering products are Food Packing Machine, Pouch Packaging Machine, Namkeen Packing Machine, Snacks Packing Machine, Liquid Packing Machine etc.
     </p>
   </div>
@@ -52,18 +38,18 @@ const Homepage = () => {
     {/* <!-- Text Section --> */}
     <div>
       
-      <p className="text-black mb-4"><li>
-        Packaging plays a vital role in almost every sector, amongst which Food & Beverage Industry requires superior levels. Adhering to this, we, Flexo Pack Machines Pvt. Ltd., are an eminent manufacturer, exporter and supplier of Pouch Packaging Machine, Tea Packing Machine, Snacks Packing Machine, Flour Packing Machine, Spices Packing Machine, and more.</li>
+      <p className="text-black mb-4">
+        Packaging plays a vital role in almost every sector, amongst which Food & Beverage Industry requires superior levels. Adhering to this, we, Flexo Pack Machines Pvt. Ltd., are an eminent manufacturer, exporter and supplier of Pouch Packaging Machine, Tea Packing Machine, Snacks Packing Machine, Flour Packing Machine, Spices Packing Machine, and more.
      <br/>
-     <li>
+     
         These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
-        </li>
+        
       <br/>
-      <li>
-        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.</li>
+      
+        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
    <br/>
-   <li>
-        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.</li>
+   
+        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
       </p>
     </div>
 
