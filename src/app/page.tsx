@@ -1,6 +1,7 @@
 
 import React from 'react';
 import TypingAnimation from "@/components/ui/typing-animation";
+import 
 
 
 
@@ -12,7 +13,7 @@ const Homepage = () => {
   
 <section className='bg-white'>
 
-
+<br/><br/>
 <section
 
 
@@ -37,10 +38,10 @@ const Homepage = () => {
 
       {/* container section */}
 
-      <div className="container mx-auto my-10 p-6 bg-blue-200">
+      <div className="container mx-auto my-10 p-6 ">
   {/* <!-- Title Section --> */}
   <div className="text-center mb-6">
-    <h1 className="text-4xl font-bold mb-4 text-black">Technofast Equipments Pvt. Ltd.</h1>
+    <h1 className="text-4xl font-bold mb-4 text-black">Technofast EquipmentsPVT. LTD.</h1>
     <p className="text-2xl text-blue-700 font-semibold ">
       Delivering a range of sturdy and functionally efficient Packaging Machines for the food & beverage industry... Our offering products are Food Packing Machine, Pouch Packaging Machine, Namkeen Packing Machine, Snacks Packing Machine, Liquid Packing Machine etc.
     </p>
@@ -50,18 +51,19 @@ const Homepage = () => {
   <div className="grid md:grid-cols-2 gap-6">
     {/* <!-- Text Section --> */}
     <div>
-      <p className="text-black mb-4">
-        Packaging plays a vital role in almost every sector, amongst which Food & Beverage Industry requires superior levels. Adhering to this, we, Flexo Pack Machines Pvt. Ltd., are an eminent manufacturer, exporter and supplier of Pouch Packaging Machine, Tea Packing Machine, Snacks Packing Machine, Flour Packing Machine, Spices Packing Machine, and more.
-      </p>
-      <p className="text-black mb-4">
+      
+      <p className="text-black mb-4"><li>
+        Packaging plays a vital role in almost every sector, amongst which Food & Beverage Industry requires superior levels. Adhering to this, we, Flexo Pack Machines Pvt. Ltd., are an eminent manufacturer, exporter and supplier of Pouch Packaging Machine, Tea Packing Machine, Snacks Packing Machine, Flour Packing Machine, Spices Packing Machine, and more.</li>
+     <br/>
+     <li>
         These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
-      </p>
-
-      <p className="text-black mb-4">
-        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
-      </p>
-      <p className="text-black mb-4">
-        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
+        </li>
+      <br/>
+      <li>
+        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.</li>
+   <br/>
+   <li>
+        These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.</li>
       </p>
     </div>
 
@@ -259,7 +261,7 @@ const Homepage = () => {
         <form action="#">
           <div className="mb-4">
             <label className="block text-sm font-medium text-white">Your Name</label>
-            <input type="text" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-black" placeholder="John Doe"/>
+            <input type="text" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-black" placeholder="enter your name"/>
           </div>
           <div className="mb-4">
             <label className="block text-sm font-medium text-white">Email Address</label>
@@ -274,7 +276,7 @@ const Homepage = () => {
       </div>
 
       {/* <!-- Contact Information --> */}
-      <div className="bg-gradient-to-r from-slate-600 to-slate-500 p-8 rounded-lg shadow-lg">
+      <div className="bg-gradient-to-r from-blue-500 to-blue-100 p-8 rounded-lg shadow-lg">
         <h3 className="text-2xl font-semibold text-gray-800 mb-6">Contact Information</h3>
         <ul>
           <li className="mb-4">
