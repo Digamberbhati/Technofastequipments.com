@@ -65,7 +65,7 @@ const Servicepage = () => {
       </div>
     </div>
 
-   
+
     </>
   );
 };
