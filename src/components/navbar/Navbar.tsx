@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 // Logo link (replace this with the actual logo link)
-const logoUrl = "https://5.imimg.com/data5/SELLER/Logo/2024/4/408631371/OJ/HE/MU/66460055/techno-120x120.jpg";
+const logoUrl = "img/Logo.png";
 
 export function NavbarMenu() {
   return (
