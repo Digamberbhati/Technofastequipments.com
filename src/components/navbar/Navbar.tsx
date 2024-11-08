@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 // Logo link (replace this with the actual logo link)
-const logoUrl = "img/Logo.png";
+// const logoUrl = "img/Logo.png";
 
 export function NavbarMenu() {
   return (
