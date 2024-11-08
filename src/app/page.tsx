@@ -255,7 +255,7 @@ const Homepage = () => {
           </div>
           <div className="mb-4">
             <label className="block text-sm font-medium text-white">Message</label>
-            <textarea rows="4" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-black" placeholder="Type your message here..."></textarea>
+            <textarea  className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-black" placeholder="Type your message here..."></textarea>
           </div>
           <button type="submit" className="w-full bg-black text-white py-3 rounded-lg shadow-lg hover:bg-white hover:text-black transition duration-300">Send Message</button>
         </form>
