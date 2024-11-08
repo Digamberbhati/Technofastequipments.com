@@ -1,8 +1,8 @@
 
 import React from 'react';
 import TypingAnimation from "@/components/ui/typing-animation";
-import Image from 'next/image';
-import matal from '../img/matal.jpg'
+// import Image from 'next/image';
+// import matal from '../img/matal.jpg'
 
 
 
@@ -16,8 +16,6 @@ const Homepage = () => {
 
 <br/><br/>
 
-<img src="img\metal .jpg" alt="Matal" />
-<img src="/logo.svg" alt="Logo" />
 
 
 

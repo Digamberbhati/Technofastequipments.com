@@ -9,14 +9,14 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href="#" className="flex items-center">
-              <Image 
+              {/* <Image 
                 src="img/Logo.png" 
                 width={32} 
                 height={32} 
                 className="object-contain h-8 mr-3" 
                 alt="Logo" 
                 priority 
-              />
+              /> */}
               <span className="self-center text-2xl font-semibold whitespace-nowrap">Your Logo</span>
             </Link>
           </div>
