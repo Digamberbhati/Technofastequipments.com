@@ -4,74 +4,70 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <footer className="text-white bg-black">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <Link href="#" className="flex items-center">
-              {/* <Image 
-                src="img/Logo.png" 
-                width={32} 
-                height={32} 
-                className="object-contain h-8 mr-3" 
-                alt="Logo" 
-                priority 
-              /> */}
-              <span className="self-center text-2xl font-semibold whitespace-nowrap">Your Logo</span>
-            </Link>
-          </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>
-              <ul className="font-medium">
-                <li className="mb-4">
-                  <Link href="#" className="hover:text-zinc-100 font-medium">Resource 1</Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-zinc-100 font-medium">Resource 2</Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase">Follow us</h2>
-              <ul className="font-medium">
-                <li className="mb-4">
-                  <Link href="#" className="hover:text-zinc-100 font-medium">Instagram</Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-zinc-100 font-medium">LinkedIn</Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-zinc-100 font-medium">Facebook</Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-zinc-100 font-medium">WhatsApp</Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase">Legal</h2>
-              <ul className="font-medium">
-                <li className="mb-4">
-                  <Link href="#" className="hover:text-zinc-100 font-medium">Privacy Policy</Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-zinc-100 font-medium">Terms &amp; Conditions</Link>
-                </li>
-              </ul>
-            </div>
+  
+    <footer id="footer" className="bg-gray-800 text-white py-8">
+    <div className="container mx-auto px-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        
+        {/* <!-- Footer About Section --> */}
+        <div className="col-span-1">
+          <a href="index.html" className="flex items-center text-lg font-bold text-white">
+          Technofast EquipmentsPVT. LTD
+          </a>
+          <div className="pt-4 space-y-2 text-sm">
+            <p><strong>Address:</strong> Gali No.1 Near Beri Ka Bagh Malerna Road,Adarsh Nagar,</p>
+            <p>Sector-63 Ballabgarh, Faridabad, Haryana – 121004</p>
+            <p><strong>Phone:</strong> +918930109050,+919467751411,+917988309282</p>
+            <p><strong>Email:</strong>technofastequipments@gmail.com</p>
           </div>
         </div>
-        <hr className="my-6 border-zinc-700 sm:mx-auto lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm sm:text-center">© 2024 <Link href="#" className="hover:text-zinc-100 font-medium">Your Company™</Link>. All Rights Reserved.</span>
-          <div className="flex mt-4 sm:justify-center sm:mt-0">
-            {/* Social Media Icons */}
-            {/* Add respective icons here */}
+  
+        {/* <!-- Useful Links --> */}
+        <div className="col-span-1 p-4">
+          <h4 className="text-lg font-semibold pb-2">Useful Links</h4>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/" className="hover:underline">Home</Link></li>
+            <li><Link href="/companyprofile" className="hover:underline">Company Profile</Link></li>
+            <li><Link href="/service" className="hover:underline">Service</Link></li>
+          
+            {/* <li><Link href="/careers" className="hover:underline">Careers</Link></li> */}
+            <li><Link href="/contact" className="hover:underline">Contact us</Link></li>
+
+          </ul>
+        </div>
+  
+        {/* <!-- Legal Links --> */}
+        <div className="col-span-1">
+          <h4 className="text-lg font-semibold pb-2">Legal</h4>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/careers" className="hover:underline">Career</Link></li>
+            <li><Link href="termsandconditions.html" className="hover:underline">Terms and Conditions</Link></li>
+            <li><Link href="privacy.html" className="hover:underline">Privacy Policy</Link></li>
+          </ul>
+        </div>
+  
+        {/* <!-- Social Media Links --> */}
+        <div className="col-span-1">
+          <h4 className="text-lg font-semibold pb-2">Follow Us</h4>
+          <div className="flex space-x-4 text-2xl">
+            <a href="https://x.com/ShriAutomobile" className="hover:text-blue-400"><i className="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61563845106681" className="hover:text-blue-500"><i className="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/shriradheautomobile/" className="hover:text-pink-500"><i className="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/shri-radhe-automobile-industries/about/" className="hover:text-blue-700"><i className="bi bi-linkedin"></i></a>
+            <a href="https://wa.me//+919914544003" className="hover:text-green-500"><i className="bi bi-whatsapp"></i></a>
           </div>
         </div>
+  
       </div>
-    </footer>
+  
+      {/* <!-- Copyright Section --> */}
+      <div className="mt-8 text-center text-sm border-t border-gray-600 pt-4">
+        <p>©2024 <strong>Shri Radhe Automobile Industries</strong> All Rights Reserved</p>
+        <p>Designed by <a href="https://greatertechhub.com/" target="_blank" className="text-blue-500 hover:underline">Greatertechhub</a></p>
+      </div>
+    </div>
+  </footer>
+  
   );
 }
 
