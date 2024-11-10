@@ -43,17 +43,10 @@ const companyprofile = () => {
       {/* Our Story Section */}
       <section className="bg-slate-400 py-20">
         <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-12">
-          <h2 className="text-4xl font-bold text-stone-300 mb-4">Our Story</h2>
-          <p className="text-lg text-slate-200 mb-6">We're passionate about delivering innovative solutions.</p>
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-1/2 xl:w-1/3 px-4 mb-4">
-            {/* img */}
-              <img src="" alt="Image 1" className="rounded shadow-md" />
-            </div>
-            <div className="w-full md:w-1/2 xl:w-2/3 px-4 mb-4">
-              <p className="text-lg text-green-50 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-            </div>
-          </div>
+          <h2 className="text-4xl  text-slate-100 mb-4 font-extrabold rounded-md bg-slate-900">Company Profile</h2>
+          <p className="text-lg text-slate-900 font-serif mb-6">We Have The Privilege Of Introducing Ourselves As The Leading Manufacturer & Exporter Of Metal Detectors And Product Inspection System For Various Applicants. Over Fifteen Years, TechnofastEquipments Have Manufactured & Successfully Installed Over 7500 Metal Detection Systems In The Country & Aboard. Undoubtedly, Today The Excellent Metal Detection Systems Are TechnofastEquipments Ensuring Easy Installation, Quick Modifications With Change In Existing Lines. Presently, We Have AHigh Quality In-house Designed Unit Equipped With Sophisticated And Modern Machinery And ATeam Of Experience Engineers, Dedicated R&d Team, Talented Designers And Other Motivated Work-force. We Design And Requirements. We Have Established And Successfully Maintained Business Alliances With Several Reputed Groups Due To The Strict Adherence Of Delivery Schedule. Al The Products That We Manufacture Are Coming After Stringent Quality Control And With That Factor Remaining Constant Quality; We Have Grown Systematically And Steadily. With The Best Quality Factor And Prompt After Sales Services, Our Clients Have Repeatedly Placed Their Faith In Us</p>
+
+
         </div>
       </section>
 
@@ -85,24 +78,24 @@ const companyprofile = () => {
             </div>
           </div>
         </div>
-     
-      {/* Contact Section */}
 
-      <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-12" />
-      <h2 className="text-4xl font-bold text-gray-800 mb-4">Get in Touch</h2>
-      <p className="text-3xl text-blue-800  mb-6">Contact us for more information.</p>
+        {/* Contact Section */}
 
-
-      <div className="w-full md:w-1/2 xl:w-1/2 px-4 mb-4 ">
-        <input type="text" placeholder="Name" className="w-full p-2 rounded" />
-      </div>
-      <div className="w-full md:w-1/2 xl:w-1/2 px-4 mb-4">
-        <input type="email" placeholder="Email" className="w-full p-2 rounded" />
-      </div>
-    
+        <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-12" />
+        <h2 className="text-4xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+        <p className="text-3xl text-blue-800  mb-6">Contact us for more information.</p>
 
 
-</section>
+        <div className="w-full md:w-1/2 xl:w-1/2 px-4 mb-4 ">
+          <input type="text" placeholder="Name" className="w-full p-2 rounded" />
+        </div>
+        <div className="w-full md:w-1/2 xl:w-1/2 px-4 mb-4">
+          <input type="email" placeholder="Email" className="w-full p-2 rounded" />
+        </div>
+
+
+
+      </section>
 
     </>
 

@@ -12,8 +12,8 @@ const Homepage = () => {
       <Image
         src="/matal" // or your correct image path
         alt="Description of the image"
-        width={500}  // specify the image width
-        height={300} // specify the image height
+        width={100}  // specify the image width
+        height={900} // specify the image height
       />
 
 
@@ -30,7 +30,7 @@ const Homepage = () => {
         <div className="container mx-auto my-10 p-6 ">
           {/* <!-- Title Section --> */}
           <div className="text-center mb-6">
-            <h1 className="text-4xl font-bold mb-4 text-black font-serif">Technofast EquipmentsPVT. LTD</h1>
+            <h1 className="text-4xl font-bold mb-4 text-black font-serif bg-yellow-600">Technofast EquipmentsPVT. LTD</h1>
             <p className="text-2xl text-blue-700 font-extrabold">
               Delivering a range of sturdy and functionally efficient Packaging Machines for the food & beverage industry... Our offering products are Food Packing Machine, Pouch Packaging Machine, Namkeen Packing Machine, Snacks Packing Machine, Liquid Packing Machine etc.
             </p>
@@ -42,17 +42,7 @@ const Homepage = () => {
             <div>
 
               <p className="text-black mb-4">
-                Packaging plays a vital role in almost every sector, amongst which Food & Beverage Industry requires superior levels. Adhering to this, we, Flexo Pack Machines Pvt. Ltd., are an eminent manufacturer, exporter and supplier of Pouch Packaging Machine, Tea Packing Machine, Snacks Packing Machine, Flour Packing Machine, Spices Packing Machine, and more.
-                <br />
-
-                These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
-
-                <br />
-
-                These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
-                <br />
-
-                These are fabricated under the vigilance of Mr. Sanjeev, who fosters the usage of highest-grade metal alloys and ultra-modern machinery. Additionally, our experts allow complete compliance with industrial norms and standards and deliver products that surpass the expectations of clients. Reasonable pricing and on-time deliveries are additional aspects of client satisfaction that help us mark an edge over our counterparts.
+              We Have The Privilege Of Introducing Ourselves As The Leading Manufacturer & Exporter Of Metal Detectors And Product Inspection System For Various Applicants. Over Fifteen Years, className="" TechnofastEquipments Have Manufactured & Successfully Installed Over 7500 Metal Detection Systems In The Country & Aboard. Undoubtedly, Today The Excellent Metal Detection Systems Are TechnofastEquipments Ensuring Easy Installation, Quick Modifications With Change In Existing Lines. Presently, We Have AHigh Quality In-house Designed Unit Equipped With Sophisticated And Modern Machinery And ATeam Of Experience Engineers, Dedicated R&d Team, Talented Designers And Other Motivated Work-force. We Design And Requirements. We Have Established And Successfully Maintained Business Alliances With Several Reputed Groups Due To The Strict Adherence Of Delivery Schedule. Al The Products That We Manufacture Are Coming After Stringent Quality Control And With That Factor Remaining Constant Quality; We Have Grown Systematically And Steadily. With The Best Quality Factor And Prompt After Sales Services, Our Clients Have Repeatedly Placed Their Faith In Us
               </p>
             </div>
 
