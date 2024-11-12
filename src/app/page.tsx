@@ -4,7 +4,7 @@
   import Image from 'next/image';
   import matal from '../../img/matal.jpg';
   import styles from './Homepage.module.css'; // Import styles if using CSS module, or define inline styles
-  import { useRef, useState } from "react";
+  
   
   // import TypingAnimation from "@/components/magicui/typing-animation";
 
@@ -58,7 +58,7 @@
             <div>
 
               <p className="text-black mb-4">
-                We Have The Privilege Of Introducing Ourselves As The Leading Manufacturer & Exporter Of Metal Detectors And Product Inspection System For Various Applicants. Over Fifteen Years, className="" TechnofastEquipments Have Manufactured & Successfully Installed Over 7500 Metal Detection Systems In The Country & Aboard. Undoubtedly, Today The Excellent Metal Detection Systems Are TechnofastEquipments Ensuring Easy Installation, Quick Modifications With Change In Existing Lines. Presently, We Have AHigh Quality In-house Designed Unit Equipped With Sophisticated And Modern Machinery And ATeam Of Experience Engineers, Dedicated R&d Team, Talented Designers And Other Motivated Work-force. We Design And Requirements. We Have Established And Successfully Maintained Business Alliances With Several Reputed Groups Due To The Strict Adherence Of Delivery Schedule. Al The Products That We Manufacture Are Coming After Stringent Quality Control And With That Factor Remaining Constant Quality; We Have Grown Systematically And Steadily. With The Best Quality Factor And Prompt After Sales Services, Our Clients Have Repeatedly Placed Their Faith In Us
+                We Have The Privilege Of Introducing Ourselves As The Leading Manufacturer & Exporter Of Metal Detectors And Product Inspection System For Various Applicants. Over Fifteen Years,  TechnofastEquipments Have Manufactured & Successfully Installed Over 7500 Metal Detection Systems In The Country & Aboard. Undoubtedly, Today The Excellent Metal Detection Systems Are TechnofastEquipments Ensuring Easy Installation, Quick Modifications With Change In Existing Lines. Presently, We Have AHigh Quality In-house Designed Unit Equipped With Sophisticated And Modern Machinery And ATeam Of Experience Engineers, Dedicated R&d Team, Talented Designers And Other Motivated Work-force. We Design And Requirements. We Have Established And Successfully Maintained Business Alliances With Several Reputed Groups Due To The Strict Adherence Of Delivery Schedule. Al The Products That We Manufacture Are Coming After Stringent Quality Control And With That Factor Remaining Constant Quality; We Have Grown Systematically And Steadily. With The Best Quality Factor And Prompt After Sales Services, Our Clients Have Repeatedly Placed Their Faith In Us
               </p>
             </div>
 
@@ -179,7 +179,7 @@
             {/* <!-- Title --> */}
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold text-black mb-4">Why Choose Us</h2>
-              <p className="text-blue-800 text-lg">Experience unmatched precision and reliability with Technofast Equipments – your trusted partner in advanced Metal Detection Technology!</p>
+              <p className="text-gray-500 text-lg">Experience unmatched precision and reliability with Technofast Equipments – your trusted partner in advanced Metal Detection Technology!</p>
             </div>
 
             {/* <!-- Facts Grid --> */}
@@ -201,7 +201,7 @@
                   <span className="text-5xl font-extrabold text-blue-600">500+</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-700 mb-2">Clients Worldwide</h3>
-                <p className="text-gray-500">Trusted by businesses across the globe for high-quality machines.</p>
+                <p className="text-gray-500">With over 500 clients worldwide, Technofast Equipments is a global leader, delivering state-of-the-art metal detector solutions that ensure unmatched reliability and precision!"</p>
               </div>
 
               {/* <!-- Fact 3 --> */}
@@ -210,7 +210,7 @@
                   <span className="text-5xl font-extrabold text-blue-600">100%</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-700 mb-2">Customer Satisfaction</h3>
-                <p className="text-gray-500">We prioritize customer needs with our dedicated support and service.</p>
+                <p className="text-gray-500">At Technofast Equipments, customer satisfaction is our global commitment. We deliver top-tier metal detection solutions that go beyond expectations, fostering trust and lasting partnerships across the world!</p>
               </div>
             </div>
 
@@ -222,7 +222,7 @@
                   <span className="text-5xl font-extrabold text-blue-600">24/7</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-700 mb-2">Support Availability</h3>
-                <p className="text-gray-500">Our team is available around the clock to assist you in every step.</p>
+                <p className="text-gray-500">Stay powered 24/7 with Technofast Equipments – our expert support is always just a call or message away, providing fast and reliable solutions anytime, anywhere!</p>
               </div>
 
               {/* <!-- Fact 5 --> */}
@@ -230,8 +230,8 @@
                 <div className="mb-4">
                   <span className="text-5xl font-extrabold text-blue-600">10+</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">Innovative Products</h3>
-                <p className="text-gray-500">We develop new solutions to meet the evolving needs of our clients.</p>
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">Innovative Machines</h3>
+                <p className="text-gray-500">Gravity Feed Metal Detector,Micro Scan Metal Detector, Dry Fruits Metal Detector, Needle Metal Detector,Liquid Metal Detector,Pipeline Metal Detector, Conveyor Metal Detector, Pharmaceutical Tablet Metal Detector, Degree Metal Detector, Candy Conveyor Metal Detector.</p>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@
 
         <h2
           className="text-3xl font-bold text-center text-pink-950  py-3 px-9 rounded-full shadow-md hover:shadow-lg transition duration-300 hover:text-white bg-blue-200">
-          Our Most Popular Machines</h2>
+          Our Most Popular Machines</h2><br></br>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 bg-blue-200">
           <div
