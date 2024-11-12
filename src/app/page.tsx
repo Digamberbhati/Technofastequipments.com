@@ -145,34 +145,30 @@
         {/* container section */}
 
 
-
+{/* 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div className="bg-lime-200 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Our  Vision
             </h3>
             <p className="text-gray-600 mb-4">Read more..</p>
             <a href="graphic Designing.html" className="text-indigo-600 font-semibold hover:underline">Learn More</a>
-          </div>
+          </div> */}
 
 
           {/* sec-2 */}
-          <div className="bg-lime-200 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+          {/* <div className="bg-lime-200 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Our Mision
             </h3>
             <p className="text-gray-600 mb-4">Read more..</p>
             <a href="graphic Designing.html" className="text-indigo-600 font-semibold hover:underline">Learn More</a>
-          </div>
+          </div> */}
 
           {/* sec-3 */}
-          <div className="bg-lime-200 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+          {/* <div className="bg-lime-200 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Our Value</h3>
             <p className="text-gray-600 mb-4">Read more...</p>
             <a href="graphic Designing.html" className="text-indigo-600 font-semibold hover:underline">Learn More</a>
-          </div>
-
-
-        </div>
-
+          </div> */}
 
 
         {/* choise */}
