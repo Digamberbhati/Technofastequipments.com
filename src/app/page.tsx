@@ -179,7 +179,7 @@
             {/* <!-- Title --> */}
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold text-black mb-4">Why Choose Us</h2>
-              <p className="text-blue-800 text-lg">Experience unmatched precision and reliability with Technofast Equipments – your trusted partner in advanced Metal Detection Technology!</p>
+              <p className="text-gray-500 text-lg">Experience unmatched precision and reliability with Technofast Equipments – your trusted partner in advanced Metal Detection Technology!</p>
             </div>
 
             {/* <!-- Facts Grid --> */}
@@ -201,7 +201,7 @@
                   <span className="text-5xl font-extrabold text-blue-600">500+</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-700 mb-2">Clients Worldwide</h3>
-                <p className="text-gray-500">Trusted by businesses across the globe for high-quality machines.</p>
+                <p className="text-gray-500">With over 500 clients worldwide, Technofast Equipments is a global leader, delivering state-of-the-art metal detector solutions that ensure unmatched reliability and precision!"</p>
               </div>
 
               {/* <!-- Fact 3 --> */}
@@ -210,7 +210,7 @@
                   <span className="text-5xl font-extrabold text-blue-600">100%</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-700 mb-2">Customer Satisfaction</h3>
-                <p className="text-gray-500">We prioritize customer needs with our dedicated support and service.</p>
+                <p className="text-gray-500">At Technofast Equipments, customer satisfaction is our global commitment. We deliver top-tier metal detection solutions that go beyond expectations, fostering trust and lasting partnerships across the world!</p>
               </div>
             </div>
 
