@@ -179,7 +179,7 @@
             {/* <!-- Title --> */}
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold text-black mb-4">Why Choose Us</h2>
-              <p className="text-orange-800 text-lg">We bring years of expertise and innovation in packaging machinery.</p>
+              <p className="text-blue-800 text-lg">Experience unmatched precision and reliability with Technofast Equipments – your trusted partner in advanced Metal Detection Technology!</p>
             </div>
 
             {/* <!-- Facts Grid --> */}
@@ -190,7 +190,7 @@
                   <span className="text-5xl font-extrabold text-blue-600">20+</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-700 mb-2">Years of Experience</h3>
-                <p className="text-gray-500">Serving the industry with top-notch packaging solutions since day one.</p>
+                <p className="text-gray-500">With over 20 years of mastery, Technofast Equipments transforms innovation into excellence you can trust!.</p>
               </div>
               {/*  */}
 
