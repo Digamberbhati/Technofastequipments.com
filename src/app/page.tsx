@@ -4,16 +4,48 @@ import TypingAnimation from "@/components/ui/typing-animation";
 import Image from 'next/image';
 import matal from '../../img/matal.jpg';
 import styles from './Homepage.module.css'; // Import styles if using CSS module, or define inline styles
+import { useRef, useState } from "react";
+// import TypingAnimation from "@/components/magicui/typing-animation";
 
 const Homepage = () => {
   return (
     <>
-      {/* <Image src={"matal"} alt="matal" className=' w={400px}  h={300px}'/> */}
     
+    <div className="relative h-screen w-full">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/img\WhatsApp Image 2024-11-12 at 19.15.29_dd5ec9a3.jpg" // Replace with your image path
+          alt="Background image"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+          className="z-0"
+        />
+      </div>
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+
+      {/* Hero Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+      <TypingAnimation
+      className="text-6xl font-bold text-white dark:text-white"
+      text="Welcome to Technofast EquipmentsPVT. LTD "
+    />
+    <br/>
+        <a href="#services" className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
+          Join us
+        </a>
+      </div>
+    </div>
+
+
+  
 
       <section className='bg-white'>
 
-       
+
 
 
         {/* container section */}
@@ -33,7 +65,7 @@ const Homepage = () => {
             <div>
 
               <p className="text-black mb-4">
-              We Have The Privilege Of Introducing Ourselves As The Leading Manufacturer & Exporter Of Metal Detectors And Product Inspection System For Various Applicants. Over Fifteen Years, className="" TechnofastEquipments Have Manufactured & Successfully Installed Over 7500 Metal Detection Systems In The Country & Aboard. Undoubtedly, Today The Excellent Metal Detection Systems Are TechnofastEquipments Ensuring Easy Installation, Quick Modifications With Change In Existing Lines. Presently, We Have AHigh Quality In-house Designed Unit Equipped With Sophisticated And Modern Machinery And ATeam Of Experience Engineers, Dedicated R&d Team, Talented Designers And Other Motivated Work-force. We Design And Requirements. We Have Established And Successfully Maintained Business Alliances With Several Reputed Groups Due To The Strict Adherence Of Delivery Schedule. Al The Products That We Manufacture Are Coming After Stringent Quality Control And With That Factor Remaining Constant Quality; We Have Grown Systematically And Steadily. With The Best Quality Factor And Prompt After Sales Services, Our Clients Have Repeatedly Placed Their Faith In Us
+                We Have The Privilege Of Introducing Ourselves As The Leading Manufacturer & Exporter Of Metal Detectors And Product Inspection System For Various Applicants. Over Fifteen Years, className="" TechnofastEquipments Have Manufactured & Successfully Installed Over 7500 Metal Detection Systems In The Country & Aboard. Undoubtedly, Today The Excellent Metal Detection Systems Are TechnofastEquipments Ensuring Easy Installation, Quick Modifications With Change In Existing Lines. Presently, We Have AHigh Quality In-house Designed Unit Equipped With Sophisticated And Modern Machinery And ATeam Of Experience Engineers, Dedicated R&d Team, Talented Designers And Other Motivated Work-force. We Design And Requirements. We Have Established And Successfully Maintained Business Alliances With Several Reputed Groups Due To The Strict Adherence Of Delivery Schedule. Al The Products That We Manufacture Are Coming After Stringent Quality Control And With That Factor Remaining Constant Quality; We Have Grown Systematically And Steadily. With The Best Quality Factor And Prompt After Sales Services, Our Clients Have Repeatedly Placed Their Faith In Us
               </p>
             </div>
 
@@ -43,82 +75,82 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-{/* image section */}
+        {/* image section */}
 
 
-<div className="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-gray-50">
-    <div className="flex flex-col md:flex-row gap-2">
-        <div className="flex flex-1 flex-col gap-2">
-            <div className="flex flex-1 flex-col">
+        <div className="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-gray-50">
+          <div className="flex flex-col md:flex-row gap-2">
+            <div className="flex flex-1 flex-col gap-2">
+              <div className="flex flex-1 flex-col">
                 {/* <!-- img_01 -->  */}
-                <img className="object-cover h-full" src="https://i.postimg.cc/2SThL25r/IMG-20241111-WA0003.jpg"/>
-            </div>
-            <div className="hidden md:flex flex-1 flex-row gap-2">
+                <img className="object-cover h-full" src="https://i.postimg.cc/2SThL25r/IMG-20241111-WA0003.jpg" />
+              </div>
+              <div className="hidden md:flex flex-1 flex-row gap-2">
                 <div className="flex flex-1 flex-col">
                   {/* <!-- img_02 -->  */}
-                  <img className="object-cover h-full" src="https://i.postimg.cc/tC6S1Tkn/IMG-20241111-WA0002.jpg"/>
+                  <img className="object-cover h-full" src="https://i.postimg.cc/tC6S1Tkn/IMG-20241111-WA0002.jpg" />
                 </div>
                 <div className="hidden md:flex flex-1 flex-col">
                   {/* <!-- img_03 -->  */}
-                  <img className="object-cover h-full" src="https://i.postimg.cc/x12LC5wT/IMG-20241111-WA0004.jpg"/>
+                  <img className="object-cover h-full" src="https://i.postimg.cc/x12LC5wT/IMG-20241111-WA0004.jpg" />
                 </div>
+              </div>
             </div>
-        </div>
-        <div className="flex flex-1 flex-col gap-2">
-            <div className="hidden md:flex flex-1 flex-row gap-2">
+            <div className="flex flex-1 flex-col gap-2">
+              <div className="hidden md:flex flex-1 flex-row gap-2">
                 <div className="flex flex-1 flex-col">
                   {/* <!-- img_04 --> */}
-                  <img className="object-cover h-full" src="https://i.postimg.cc/G3sC3xPf/IMG-20241111-WA0005.jpg"/>  
+                  <img className="object-cover h-full" src="https://i.postimg.cc/G3sC3xPf/IMG-20241111-WA0005.jpg" />
                 </div>
                 <div className="hidden md:flex flex-1 flex-col">
                   {/* <!-- img_05 --> */}
-                  <img className="object-cover h-full" src="https://i.postimg.cc/brYVn8DL/IMG-20241111-WA0006.jpg"/>
+                  <img className="object-cover h-full" src="https://i.postimg.cc/brYVn8DL/IMG-20241111-WA0006.jpg" />
                 </div>
-            </div>                        
-            <div className="flex flex-1 flex-col">
-              {/* <!-- img_06 --> */}
-              <img className="object-cover h-full" src="https://i.postimg.cc/Dw3sp653/IMG-20241111-WA0007.jpg"/>
+              </div>
+              <div className="flex flex-1 flex-col">
+                {/* <!-- img_06 --> */}
+                <img className="object-cover h-full" src="https://i.postimg.cc/Dw3sp653/IMG-20241111-WA0007.jpg" />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
 
-{/* <!-- section_2 -->  */}
-<div className="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-white">
-    <div className="flex flex-col md:flex-row gap-2">
-        <div className="flex flex-1 flex-col">
+        {/* <!-- section_2 -->  */}
+        <div className="max-w-screen-2xl mx-auto px-4 py-16 lg:py-24 relative bg-white">
+          <div className="flex flex-col md:flex-row gap-2">
             <div className="flex flex-1 flex-col">
+              <div className="flex flex-1 flex-col">
                 {/* <!-- img_01 -->  */}
-                <img className="object-cover h-full" src='https://i.postimg.cc/qMVSQVfJ/IMG-20241111-WA0009.jpg' alt=''/>
-            </div>
-        </div>
-        <div className="flex flex-1">
-            <div className="grid grid-cols-2 gap-2">
-              <div>
-                {/* <!-- img_02 --> */}
-                <img className="object-cover h-full" src='https://i.postimg.cc/mkbM2gzZ/IMG-20241111-WA0010.jpg' alt=''/>
-              </div>
-              <div>
-                {/* <!-- img_03 --> */}
-                <img className="object-cover h-full" src='https://i.postimg.cc/fTWTzgCv/IMG-20241111-WA0012.jpg' alt=''/>
-              </div>
-              <div>
-                {/* <!-- img_04 --> */}
-                <img className="object-cover h-full" src='https://i.postimg.cc/Njf3232d/IMG-20241111-WA0013.jpg' alt=''/>
-              </div>
-              <div>
-                {/* <!-- img_05 --> */}
-                <img className="object-cover h-full" src='https://i.postimg.cc/bJzC4b03/IMG-20241111-WA0014.jpg' alt=''/>
+                <img className="object-cover h-full" src='https://i.postimg.cc/qMVSQVfJ/IMG-20241111-WA0009.jpg' alt='' />
               </div>
             </div>
+            <div className="flex flex-1">
+              <div className="grid grid-cols-2 gap-2">
+                <div>
+                  {/* <!-- img_02 --> */}
+                  <img className="object-cover h-full" src='https://i.postimg.cc/mkbM2gzZ/IMG-20241111-WA0010.jpg' alt='' />
+                </div>
+                <div>
+                  {/* <!-- img_03 --> */}
+                  <img className="object-cover h-full" src='https://i.postimg.cc/fTWTzgCv/IMG-20241111-WA0012.jpg' alt='' />
+                </div>
+                <div>
+                  {/* <!-- img_04 --> */}
+                  <img className="object-cover h-full" src='https://i.postimg.cc/Njf3232d/IMG-20241111-WA0013.jpg' alt='' />
+                </div>
+                <div>
+                  {/* <!-- img_05 --> */}
+                  <img className="object-cover h-full" src='https://i.postimg.cc/bJzC4b03/IMG-20241111-WA0014.jpg' alt='' />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
 
 
 
         {/* container section */}
-        
+
 
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -238,7 +270,7 @@ const Homepage = () => {
           {/* sect-2 */}
           <div
             className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-          
+
             <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
               to
               fit your schedule.</p>
@@ -247,7 +279,7 @@ const Homepage = () => {
           {/* sec-3 */}
           <div
             className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-          
+
             <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
               to
               fit your schedule.</p>
@@ -256,7 +288,7 @@ const Homepage = () => {
           {/* sec-4 */}
           <div
             className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-          
+
             <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
               to
               fit your schedule.</p>
@@ -265,7 +297,7 @@ const Homepage = () => {
           {/* sec-5 */}
           <div
             className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-            
+
 
             <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
               to
@@ -274,7 +306,7 @@ const Homepage = () => {
           {/* sec-6 */}
           <div
             className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-            
+
             <p className="text-white">Choose from a variety of learning formats, including in-person and online courses,
               to
               fit your schedule.</p>
