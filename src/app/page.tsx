@@ -37,10 +37,7 @@
 
 
       <section className='bg-white'>
-
-
-
-
+        
         {/* container section */}
 
         <div className="container mx-auto my-10 p-6 ">
