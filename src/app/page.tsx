@@ -4,7 +4,7 @@
   import Image from 'next/image';
   import matal from '../../img/matal.jpg';
   import styles from './Homepage.module.css'; // Import styles if using CSS module, or define inline styles
-  import { useRef, useState } from "react";
+  
   
   // import TypingAnimation from "@/components/magicui/typing-animation";
 
@@ -222,7 +222,7 @@
                   <span className="text-5xl font-extrabold text-blue-600">24/7</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-700 mb-2">Support Availability</h3>
-                <p className="text-gray-500">Our team is available around the clock to assist you in every step.</p>
+                <p className="text-gray-500">Stay powered 24/7 with Technofast Equipments – our expert support is always just a call or message away, providing fast and reliable solutions anytime, anywhere!</p>
               </div>
 
               {/* <!-- Fact 5 --> */}
@@ -230,8 +230,8 @@
                 <div className="mb-4">
                   <span className="text-5xl font-extrabold text-blue-600">10+</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">Innovative Products</h3>
-                <p className="text-gray-500">We develop new solutions to meet the evolving needs of our clients.</p>
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">Innovative Machines</h3>
+                <p className="text-gray-500">Gravity Feed Metal Detector,Micro Scan Metal Detector, Dry Fruits Metal Detector, Needle Metal Detector,Liquid Metal Detector,Pipeline Metal Detector, Conveyor Metal Detector, Pharmaceutical Tablet Metal Detector, Degree Metal Detector, Candy Conveyor Metal Detector.</p>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@
 
         <h2
           className="text-3xl font-bold text-center text-pink-950  py-3 px-9 rounded-full shadow-md hover:shadow-lg transition duration-300 hover:text-white bg-blue-200">
-          Our Most Popular Machines</h2>
+          Our Most Popular Machines</h2><br></br>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 bg-blue-200">
           <div
