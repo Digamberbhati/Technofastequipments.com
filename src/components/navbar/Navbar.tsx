@@ -32,7 +32,7 @@ function Navbar({ className }: { className?: string }) {
           <div className="flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white focus:outline-none"
+              className="text-black focus:outline-none"
             >
               <svg
                 className="w-6 h-6"
