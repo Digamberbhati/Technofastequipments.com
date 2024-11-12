@@ -1,58 +1,39 @@
 
-import React from 'react';
-import TypingAnimation from "@/components/ui/typing-animation";
-import Image from 'next/image';
-import matal from '../../img/matal.jpg';
-import styles from './Homepage.module.css'; // Import styles if using CSS module, or define inline styles
-import { useRef, useState } from "react";
-// import TypingAnimation from "@/components/magicui/typing-animation";
+  import React from 'react';
+  import TypingAnimation from "@/components/ui/typing-animation";
+  import Image from 'next/image';
+  import matal from '../../img/matal.jpg';
+  import styles from './Homepage.module.css'; // Import styles if using CSS module, or define inline styles
+  import { useRef, useState } from "react";
+  
+  // import TypingAnimation from "@/components/magicui/typing-animation";
 
-const Homepage = () => {
-  return (
-    <>
+  const Homepage = () => {
+    return (
+      <>
 
-<section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: 'img\matal detection.jpg' }}>
-      <div className="absolute inset-0 bg-black opacity-5"></div>
-      <div className="relative z-10 flex items-center justify-center w-full h-full text-center text-white">
-        <div>
-          <h1 className="text-5xl font-extrabold mb-4">Welcome to Our Website</h1>
-          <p className="text-lg mb-6">Discover our amazing services and products tailored just for you.</p>
-          <a href="#services" className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
-            Get Started
-          </a>
-        </div>
-      </div>
-    </section>
 
-      <div className="relative h-screen w-full">
+
+<div className="relative h-screen w-full">
         {/* Background Image */}
-        <div className="absolute inset-0">
-          <Image
-            src="/img\silhouette-man-with-metal-detector-sunset_404461-73.avif"
-            alt="Metal detection"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-          />
-        </div>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/img/matal%20detection.jpg)' }}>
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black opacity-0"></div>
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black opacity-5"></div>
-
-        {/* Hero Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-          <TypingAnimation
-            className="text-6xl font-bold text-white dark:text-white"
-            text="Welcome to Technofast Equipments"
-          />
-          <br />
-          <a href="#services" className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
-            Join us
-          </a>
+          {/* Hero Content */}
+          <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+            <TypingAnimation
+              className="text-6xl font-bold text-white dark:text-white"
+              text="Welcome to Technofast Equipments"
+            />
+            <br />
+            <p className="text-lg mb-6">Discover our amazing services and products tailored just for you.</p>
+            <a href="#services" className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
+              Join us
+            </a>
+          </div>
         </div>
       </div>
-
-
 
 
       <section className='bg-white'>
