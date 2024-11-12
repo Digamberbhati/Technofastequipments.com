@@ -249,7 +249,7 @@
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 bg-blue-200">
           <div
             className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-
+<h2 className="text-black font-bold">Microscan Metal Detector</h2>
             <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
               to
               fit your schedule.</p>
@@ -259,42 +259,18 @@
           {/* sect-2 */}
           <div
             className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
+<h2 className="text-black font-bold">Pipeline Metal Detector</h2>
 
             <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
               to
               fit your schedule.</p>
           </div>
 
-          {/* sec-3 */}
-          <div
-            className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-
-            <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
-              to
-              fit your schedule.</p>
-          </div>
-
-          {/* sec-4 */}
-          <div
-            className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-
-            <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
-              to
-              fit your schedule.</p>
-          </div>
-
-          {/* sec-5 */}
-          <div
-            className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-
-
-            <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
-              to
-              fit your schedule.</p>
-          </div>
+        
           {/* sec-6 */}
           <div
             className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
+<h2 className="text-black font-bold">Gravity Feed Metal Detector</h2>
 
             <p className="text-white">Choose from a variety of learning formats, including in-person and online courses,
               to
