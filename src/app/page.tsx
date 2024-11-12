@@ -10,38 +10,50 @@ import { useRef, useState } from "react";
 const Homepage = () => {
   return (
     <>
-    
-    <div className="relative h-screen w-full">
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <Image
-          src="/img\WhatsApp Image 2024-11-12 at 19.15.29_dd5ec9a3.jpg" // Replace with your image path
-          alt="Background image"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-          className="z-0"
-        />
+
+<section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: 'img\matal detection.jpg' }}>
+      <div className="absolute inset-0 bg-black opacity-5"></div>
+      <div className="relative z-10 flex items-center justify-center w-full h-full text-center text-white">
+        <div>
+          <h1 className="text-5xl font-extrabold mb-4">Welcome to Our Website</h1>
+          <p className="text-lg mb-6">Discover our amazing services and products tailored just for you.</p>
+          <a href="#services" className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
+            Get Started
+          </a>
+        </div>
+      </div>
+    </section>
+
+      <div className="relative h-screen w-full">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/img\silhouette-man-with-metal-detector-sunset_404461-73.avif"
+            alt="Metal detection"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+          />
+        </div>
+
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black opacity-5"></div>
+
+        {/* Hero Content */}
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+          <TypingAnimation
+            className="text-6xl font-bold text-white dark:text-white"
+            text="Welcome to Technofast Equipments"
+          />
+          <br />
+          <a href="#services" className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
+            Join us
+          </a>
+        </div>
       </div>
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-
-      {/* Hero Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-      <TypingAnimation
-      className="text-6xl font-bold text-white dark:text-white"
-      text="Welcome to Technofast EquipmentsPVT. LTD "
-    />
-    <br/>
-        <a href="#services" className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
-          Join us
-        </a>
-      </div>
-    </div>
 
 
-  
 
       <section className='bg-white'>
 
@@ -53,8 +65,8 @@ const Homepage = () => {
         <div className="container mx-auto my-10 p-6 ">
           {/* <!-- Title Section --> */}
           <div className="text-center mb-6">
-            <h1 className="text-4xl font-bold mb-4 text-black font-serif bg-yellow-600">Technofast EquipmentsPVT. LTD</h1>
-            <p className="text-2xl text-blue-700 font-extrabold">
+            {/* <h1 className="text-4xl font-bold mb-4 text-pink-400 font-serif ">Technofast Equipments PVT. LTD</h1> */}
+            <p className="text-2xl text-blue-900 font-serif">
               Delivering a range of sturdy and functionally efficient Packaging Machines for the food & beverage industry... Our offering products are Food Packing Machine, Pouch Packaging Machine, Namkeen Packing Machine, Snacks Packing Machine, Liquid Packing Machine etc.
             </p>
           </div>
