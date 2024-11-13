@@ -39,7 +39,7 @@ const Homepage = () => {
   Join us
 </a> */}
 
-  <PulsatingButton>Join Affiliate Program</PulsatingButton>;
+  <PulsatingButton>Join Us</PulsatingButton>
 
 
 

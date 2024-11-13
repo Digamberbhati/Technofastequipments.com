@@ -8,6 +8,7 @@ interface PulsatingButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   pulseColor?: string;
   duration?: string;
+  size?: "small" | "medium" | "large"; // Add size prop
 }
 
 export default function PulsatingButton({
@@ -15,12 +16,21 @@ export default function PulsatingButton({
   children,
   pulseColor = "#0096ff",
   duration = "1.5s",
+  size = "medium", // Default size is medium
   ...props
 }: PulsatingButtonProps) {
+  // Define size classes
+  const sizeClasses = {
+    small: "px-3 py-1 text-sm",  // Smaller button
+    medium: "px-4 py-2 text-base", // Default size
+    large: "px-6 py-3 text-lg",  // Larger button
+  };
+
   return (
     <button
       className={cn(
-        "relative text-center cursor-pointer flex justify-center items-center rounded-lg text-white dark:text-black bg-blue-500 dark:bg-blue-500 px-4 py-2",
+        "relative text-center cursor-pointer flex justify-center items-center rounded-lg text-white dark:text-black bg-blue-500 dark:bg-blue-500",
+        sizeClasses[size], // Apply size classes
         className,
       )}
       style={
