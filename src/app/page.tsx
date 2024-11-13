@@ -1,30 +1,28 @@
+import React from 'react';
+import TypingAnimation from "@/components/ui/typing-animation"; // Assuming TypingAnimation supports this
+import styles from './Homepage.module.css'; // Import styles if using CSS module
 
-  import React from 'react';
-  import TypingAnimation from "@/components/ui/typing-animation";
-  import Image from 'next/image';
-  import matal from '../../img/matal.jpg';
-  import styles from './Homepage.module.css'; // Import styles if using CSS module, or define inline styles
-  
-  
-  // import TypingAnimation from "@/components/magicui/typing-animation";
-
-  const Homepage = () => {
-    return (
-      <>
-
-
-
-<div className="relative h-screen w-full">
+const Homepage = () => {
+  return (
+    <>
+      <div className="relative h-screen w-full">
         {/* Background Image */}
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(img\background image.jpg)' }}>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/img/background-image.jpg)' }}>
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black opacity-0"></div>
+          <div className="absolute inset-0 bg-black opacity-50"></div>
 
           {/* Hero Content */}
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+            {/* Typing animation for first line */}
             <TypingAnimation
               className="text-6xl font-bold text-white dark:text-white"
-              text="Welcome to Technofast Equipments"
+              text="Welcome to"
+            />
+            <br />
+            {/* Typing animation for second line */}
+            <TypingAnimation
+              className="text-6xl font-bold text-blue-500 dark:text-blue-500"
+              text="Technofast Equipments"
             />
             <br />
             <p className="text-lg mb-6">Discover our amazing services and products tailored just for you.</p>
@@ -34,6 +32,10 @@
           </div>
         </div>
       </div>
+    
+
+   
+
 
 
       <section className='bg-white'>
