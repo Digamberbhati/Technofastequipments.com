@@ -1,6 +1,8 @@
 import React from 'react';
 import TypingAnimation from "@/components/ui/typing-animation"; // Assuming TypingAnimation supports this
 import styles from './Homepage.module.css'; // Import styles if using CSS module
+import PulsatingButton from "@/components/ui/pulsating-button";
+
 
 const Homepage = () => {
   return (
@@ -32,10 +34,13 @@ const Homepage = () => {
               Join us
             </a> */}
 
-<a href="#services" 
+{/* <a href="#services" 
    className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 sm:px-8 sm:py-4 md:px-10 md:py-5">
   Join us
-</a>
+</a> */}
+
+  <PulsatingButton>Join Affiliate Program</PulsatingButton>;
+
 
 
 
