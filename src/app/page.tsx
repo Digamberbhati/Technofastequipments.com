@@ -16,7 +16,7 @@
 
 <div className="relative h-screen w-full">
         {/* Background Image */}
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/img/matal%20detection.jpg)' }}>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(img\background image.jpg)' }}>
           {/* Overlay */}
           <div className="absolute inset-0 bg-black opacity-0"></div>
 
@@ -323,7 +323,7 @@
                   </li>
                   <li className="mb-4">
                     <span className="block text-sm font-medium text-gray-600">Phone</span>
-                    <p className="text-lg text-gray-800">+918930109050, +919467751411, +917988309282</p>
+                    <p className="text-lg text-gray-800"></p>
                   </li>
                   <li className="mb-4">
                     <span className="block text-sm font-medium text-gray-600">Working Hours</span>
