@@ -315,15 +315,15 @@
                 <ul>
                   <li className="mb-4">
                     <span className="block text-sm font-medium text-gray-600">Address</span>
-                    <p className="text-lg text-gray-800">123 Business Avenue, Suite 100<br />City, Country 12345</p>
+                    <p className="text-lg text-gray-800">Gali No.1 Near Beri Ka Bagh Malerna Road, Adarsh Nagar,<br />Sector-63 Ballabgarh, Faridabad, Haryana – 121004</p>
                   </li>
                   <li className="mb-4">
                     <span className="block text-sm font-medium text-gray-600">Email</span>
-                    <p className="text-lg text-gray-800">info@yourcompany.com</p>
+                    <p className="text-lg text-gray-800">technofastequipments@gmail.com</p>
                   </li>
                   <li className="mb-4">
                     <span className="block text-sm font-medium text-gray-600">Phone</span>
-                    <p className="text-lg text-gray-800">+1 (123) 456-7890</p>
+                    <p className="text-lg text-gray-800">+918930109050, +919467751411, +917988309282</p>
                   </li>
                   <li className="mb-4">
                     <span className="block text-sm font-medium text-gray-600">Working Hours</span>
