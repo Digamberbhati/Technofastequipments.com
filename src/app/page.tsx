@@ -4,6 +4,7 @@ import styles from './Homepage.module.css'; // Import styles if using CSS module
 import PulsatingButton from "@/components/ui/pulsating-button";
 
 
+
 const Homepage = () => {
   return (
     <>
@@ -78,6 +79,21 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         {/* image section */}
 
 
