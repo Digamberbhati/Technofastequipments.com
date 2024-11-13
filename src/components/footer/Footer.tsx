@@ -62,7 +62,7 @@ const Footer = () => {
   
       {/* <!-- Copyright Section --> */}
       <div className="mt-8 text-center text-sm border-t border-gray-600 pt-4">
-        <p>©2024 <strong>Shri Radhe Automobile Industries</strong> All Rights Reserved</p>
+        <p>©2024 <strong>Techofast Equipments</strong> All Rights Reserved</p>
         <p>Designed by <a href="https://greatertechhub.com/" target="_blank" className="text-blue-500 hover:underline">Greatertechhub</a></p>
       </div>
     </div>
