@@ -45,11 +45,11 @@ const Footer = () => {
           <div className="col-span-1">
             <h4 className="text-lg font-semibold pb-2">Follow Us</h4>
             <div className="flex space-x-4 text-2xl">
-              <a href="https://x.com/ShriAutomobile" className="hover:text-blue-400"><FaTwitter /></a>
-              <a href="https://www.facebook.com/profile.php?id=61563845106681" className="hover:text-blue-500"><FaFacebook /></a>
-              <a href="https://www.instagram.com/shriradheautomobile/" className="hover:text-pink-500"><FaInstagram /></a>
-              <a href="https://www.linkedin.com/company/shri-radhe-automobile-industries/about/" className="hover:text-blue-700"><FaLinkedin /></a>
-              <a href="https://wa.me//+919914544003" className="hover:text-green-500"><FaWhatsapp /></a>
+              <a href="#" className="hover:text-blue-400"><FaTwitter /></a>
+              <a href="#" className="hover:text-blue-500"><FaFacebook /></a>
+              <a href="#" className="hover:text-pink-500"><FaInstagram /></a>
+              <a href="#" className="hover:text-blue-700"><FaLinkedin /></a>
+              <a href="https://wa.me//+91-9467751411" className="hover:text-green-500"><FaWhatsapp /></a>
             </div>
           </div>
         </div>
