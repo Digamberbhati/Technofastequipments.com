@@ -26,17 +26,23 @@ const Homepage = () => {
             />
             <br />
             <p className="text-lg mb-6">Discover our amazing services and products tailored just for you.</p>
-            <a href="#services" className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
+
+
+            {/* <a href="#services" className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
               Join us
-            </a>
+            </a> */}
+
+<a href="#services" 
+   className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 sm:px-8 sm:py-4 md:px-10 md:py-5">
+  Join us
+</a>
+
+
+
           </div>
         </div>
       </div>
-    
-
-   
-
-
+  
 
       <section className='bg-white'>
         
