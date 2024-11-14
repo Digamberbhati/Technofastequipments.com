@@ -288,7 +288,7 @@ const Homepage = () => {
             <div className="flex items-center mb-2">
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
-              <h2 className="tracking-widest text-xs title-font font-mono text-gray-400">PIPELINE DETECTOR</h2>
+              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">PIPELINE DETECTOR</h2>
             </div>
             <h1 className="title-font text-lg font-serif text-gray-900 mb-3">Pipeline Metal Detector</h1>
             <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-semibold">
