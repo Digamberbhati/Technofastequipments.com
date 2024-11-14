@@ -203,24 +203,14 @@ const Homepage = () => {
           </div>
         </section>
 
-
-
         {/* our products */}
-
 <div>
 <h2
           className="text-3xl font-bold text-center text-pink-950  py-3 px-9 rounded-full shadow-md hover:shadow-lg transition duration-300 hover:text-white bg-blue-200">
           Our Most Popular Machines</h2><br></br>
 </div>
         
-
 {/* Popular Machines section */}
-
-
-
-
-
-
 
 <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
