@@ -224,10 +224,10 @@ const Homepage = () => {
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
             
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400"> MICROSCA METAL DETECTOR</h2>
+              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 "> MICROSCA METAL DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Microscan Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none">
+            <h1 className="title-font text-lg font-mono text-gray-900 mb-3">Microscan Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-semibold">
               A compact and precise metal detection system designed for high sensitivity in identifying small metal contaminants in food, pharmaceuticals, and packaging industries. This advanced solution ensures compliance with industry standards while maintaining product quality and safety.
             </p>
           </div>
@@ -243,8 +243,8 @@ const Homepage = () => {
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="blog" />
               <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">PIPELINE DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Pipeline Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none">
+            <h1 className="title-font text-lg font-mono text-gray-900 mb-3">Pipeline Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-semibold">
               Specially designed for inspecting liquid and paste products in pipelines, ensuring the detection and removal of metal particles before further processing. The Pipeline Metal Detector is ideal for dairy, sauces, and beverage industries.
             </p>
           </div>
@@ -260,8 +260,8 @@ const Homepage = () => {
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
               <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">GRAVITY DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Gravity Feed Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none">
+            <h1 className="title-font text-lg font-mono text-gray-900 mb-3">Gravity Feed Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none  font-semibold">
               Ideal for inspecting bulk materials such as grains, powders, and dry products during free-fall operations, ensuring safety and quality. The system is easy to integrate and offers exceptional accuracy for high-speed processing.
             </p>
           </div>
