@@ -82,7 +82,7 @@ const Homepage = () => {
         {/* image section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-6">
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="Blog Image 1" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="Pipeline Metal Detector" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
               <span className="text-white text-lg font-semibold">Pipeline Metal Detector</span>
             </div>
@@ -90,7 +90,7 @@ const Homepage = () => {
 
           {/* <!-- 2nd img --> */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Conveyor Metal Detector" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
               <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
             </div>
@@ -98,9 +98,31 @@ const Homepage = () => {
 
           {/* <!-- 3rd img --> */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="" alt="Blog Image 3" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src="https://i.postimg.cc/qqwZNJ67/Whats-App-Image-2024-11-13-at-11-43-40-8e5e12a6.jpg" alt="Blog Image 3" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-              <span className="text-white text-lg font-semibold">Blog Title 3</span>
+              <span className="text-white text-lg font-semibold">Greavity Feed Metal Detector</span>
+            </div>
+          </div>
+          
+          {/* <!-- 4nd img --> */}
+          <div className="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="https://i.postimg.cc/rwPLwJ5r/Tablet-Metal-Detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+              <span className="text-white text-lg font-semibold">Table Metal Detector</span>
+            </div>
+          </div>
+          {/* <!-- 5nd img --> */}
+          <div className="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+              <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
+            </div>
+          </div>
+          {/* <!-- 6nd img --> */}
+          <div className="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+              <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
             </div>
           </div>
 
