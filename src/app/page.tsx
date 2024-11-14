@@ -100,7 +100,7 @@ const Homepage = () => {
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
             <img src="https://i.postimg.cc/qqwZNJ67/Whats-App-Image-2024-11-13-at-11-43-40-8e5e12a6.jpg" alt="Blog Image 3" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-              <span className="text-white text-lg font-semibold">Greavity Feed Metal Detector</span>
+              <span className="text-white text-lg font-semibold">Manufacturer of Metal Detection</span>
             </div>
           </div>
           
@@ -113,9 +113,9 @@ const Homepage = () => {
           </div>
           {/* <!-- 5nd img --> */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src="https://i.postimg.cc/zBLvfvLJ/Greavity-Feed-Metal-Detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-              <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
+              <span className="text-white text-lg font-semibold">Greavity Feed Metal Detector</span>
             </div>
           </div>
           {/* <!-- 6nd img --> */}
