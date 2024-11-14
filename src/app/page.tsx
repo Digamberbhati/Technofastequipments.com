@@ -98,9 +98,31 @@ const Homepage = () => {
 
           {/* <!-- 3rd img --> */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="" alt="Blog Image 3" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src="https://i.postimg.cc/qqwZNJ67/Whats-App-Image-2024-11-13-at-11-43-40-8e5e12a6.jpg" alt="Blog Image 3" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-              <span className="text-white text-lg font-semibold">Blog Title 3</span>
+              <span className="text-white text-lg font-semibold">Greavity Feed Metal Detector</span>
+            </div>
+          </div>
+          
+          {/* <!-- 2nd img --> */}
+          <div className="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+              <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
+            </div>
+          </div>
+          {/* <!-- 2nd img --> */}
+          <div className="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+              <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
+            </div>
+          </div>
+          {/* <!-- 2nd img --> */}
+          <div className="relative group overflow-hidden rounded-lg shadow-lg">
+            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+              <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
             </div>
           </div>
 
@@ -211,7 +233,32 @@ const Homepage = () => {
         
 {/* Popular Machines section */}
 
-<section className="text-gray-600 body-font">
+<section className="text-gray-600 body-font flex-col">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 md:w-1/3">
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+          {/* <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog"> */}
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+            <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <div className="flex items-center flex-wrap ">
+              {/* Learn More Section */}
+              <a className="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 hover:text-purple-700 hover:underline">Learn More
+                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Repeat for the other cards */}
+    </div>
+  </div>
   <div className="container px-5 py-24 mx-auto">
     {/* Flex container to hold all three sections horizontally */}
     <div className="flex flex-wrap -m-4">
@@ -224,10 +271,10 @@ const Homepage = () => {
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
             
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400"> MICROSCA METAL DETECTOR</h2>
+              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400"> MICROSCAN METAL DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Microscan Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none">
+            <h1 className="title-font text-lg font-serif text-gray-900 mb-3">Microscan Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-semibold">
               A compact and precise metal detection system designed for high sensitivity in identifying small metal contaminants in food, pharmaceuticals, and packaging industries. This advanced solution ensures compliance with industry standards while maintaining product quality and safety.
             </p>
           </div>
@@ -240,11 +287,11 @@ const Homepage = () => {
           <div className="p-6">
             <div className="flex items-center mb-2">
               {/* Image before machine name */}
-              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="blog" />
+              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
               <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">PIPELINE DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Pipeline Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none">
+            <h1 className="title-font text-lg font-serif text-gray-900 mb-3">Pipeline Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-semibold">
               Specially designed for inspecting liquid and paste products in pipelines, ensuring the detection and removal of metal particles before further processing. The Pipeline Metal Detector is ideal for dairy, sauces, and beverage industries.
             </p>
           </div>
@@ -258,10 +305,10 @@ const Homepage = () => {
             <div className="flex items-center mb-2">
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">GRAVITY DETECTOR</h2>
+              <h2 className="tracking-widest text-xs title-font font-mono text-gray-400">GRAVITY DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Gravity Feed Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none">
+            <h1 className="title-font text-lg font-serif text-gray-900 mb-3">Gravity Feed Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-semibold">
               Ideal for inspecting bulk materials such as grains, powders, and dry products during free-fall operations, ensuring safety and quality. The system is easy to integrate and offers exceptional accuracy for high-speed processing.
             </p>
           </div>
