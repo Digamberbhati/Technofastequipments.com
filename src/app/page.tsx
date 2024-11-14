@@ -53,11 +53,15 @@ const Homepage = () => {
       <section className='bg-white'>
         
         {/* container section */}
+       <div className="mx-7 py-3">
+       {/* <h1 className="text-3xl text-black text-center font-extrabold rounded-full bg-blue-300 py-3 mx-96 hover:bg-blue-400">Company Profile</h1> */}
+       </div>
 
         <div className="container mx-auto my-10 p-6 ">
-          {/* <!-- Title Section --> */}
-          <div className="text-center mb-6">
-            {/* <h1 className="text-4xl font-bold mb-4 text-pink-400 font-serif ">Technofast Equipments PVT. LTD</h1> */}
+           {/* <!-- Title Section --> */}
+          <div className="text-center ">
+          <h1 className="text-3xl text-black text-center font-extrabold rounded-full bg-blue-300 py-3 mx-96 hover:bg-blue-400">Company Profile</h1>
+          <br/><br/><br/>
             <p className="text-2xl text-blue-900 font-serif">
               Delivering a range of sturdy and functionally efficient Packaging Machines for the food & beverage industry... Our offering products are Food Packing Machine, Pouch Packaging Machine, Namkeen Packing Machine, Snacks Packing Machine, Liquid Packing Machine etc.
             </p>
