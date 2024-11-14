@@ -204,11 +204,10 @@ const Homepage = () => {
         </section>
 
         {/* our products */}
-<div>
-<h2
-          className="text-3xl font-bold text-center text-pink-950  py-3 px-9 rounded-full shadow-md hover:shadow-lg transition duration-300 hover:text-white bg-blue-200">
+<div className='bg-white'>
+<h2 className="text-3xl font-bold text-center text-black  py-3 px-3 mx-96 rounded-full shadow-md hover:shadow-lg transition duration-300 hover:text-white bg-blue-200">
           Our Most Popular Machines</h2><br></br>
-</div>
+
         
 {/* Popular Machines section */}
 
@@ -225,7 +224,7 @@ const Homepage = () => {
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
             
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">METAL DETECTOR</h2>
+              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400"> MICROSCAN METAL DETECTOR</h2>
             </div>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Microscan Metal Detector</h1>
             <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none">
@@ -273,7 +272,7 @@ const Homepage = () => {
   </div>
 </section>
 
-
+</div>
 
 
 
