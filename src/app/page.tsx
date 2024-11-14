@@ -240,7 +240,7 @@ const Homepage = () => {
           <div className="p-6">
             <div className="flex items-center mb-2">
               {/* Image before machine name */}
-              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
+              <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="blog" />
               <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">PIPELINE DETECTOR</h2>
             </div>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Pipeline Metal Detector</h1>
