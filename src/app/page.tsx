@@ -277,69 +277,84 @@ const Homepage = () => {
           className="text-3xl font-bold text-center text-pink-950  py-3 px-9 rounded-full shadow-md hover:shadow-lg transition duration-300 hover:text-white bg-blue-200">
           Our Most Popular Machines</h2><br></br>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 bg-blue-200">
-          <div
-            className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-<h2 className="text-black font-bold">Microscan Metal Detector</h2>
-            <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
-              to
-              fit your schedule.</p>
-          </div>
+   
+
+{/* Popular Machines section */}
 
 
-          {/* sect-2 */}
-          <div
-            className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-<h2 className="text-black font-bold">Pipeline Metal Detector</h2>
-
-            <p className="text-black">Choose from a variety of learning formats, including in-person and online courses,
-              to
-              fit your schedule.</p>
-          </div>
-
-        
-          {/* sec-6 */}
-          <div
-            className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-<h2 className="text-black font-bold">Gravity Feed Metal Detector</h2>
-
-            <p className="text-white">Choose from a variety of learning formats, including in-person and online courses,
-              to
-              fit your schedule.</p>
-          </div>
-
-        </div>
 
 
 <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
+    {/* Flex container to hold all three sections horizontally */}
     <div className="flex flex-wrap -m-4">
+      
+      {/* Machines 1 */}
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden transition-transform transform hover:scale-105">
-          {/* <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog"> */}
           <div className="p-6">
-            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-            <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-            <div className="flex items-center flex-wrap ">
-              {/* Learn More Section */}
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">METAL DETECTOR</h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Microscan Metal Detector</h1>
+            <p className="leading-relaxed mb-3">
+              A compact and precise metal detection system designed for high sensitivity in identifying small metal contaminants in food, pharmaceuticals, and packaging industries.
+            </p>
+            <div className="flex items-center flex-wrap">
               <a className="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 hover:text-purple-700 hover:underline">Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
                 </svg>
               </a>
-            
             </div>
           </div>
         </div>
       </div>
-      {/* Repeat for the other cards */}
+
+      {/* Machines 2 */}
+      <div className="p-4 md:w-1/3">
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">PIPELINE DETECTOR</h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Pipeline Metal Detector</h1>
+            <p className="leading-relaxed mb-3">
+              Specially designed for inspecting liquid and paste products in pipelines, ensuring the detection and removal of metal particles before further processing.
+            </p>
+            <div className="flex items-center flex-wrap">
+              <a className="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 hover:text-purple-700 hover:underline">Learn More
+                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Machines 3 */}
+      <div className="p-4 md:w-1/3">
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">GRAVITY DETECTOR</h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Gravity Feed Metal Detector</h1>
+            <p className="leading-relaxed mb-3">
+              Ideal for inspecting bulk materials such as grains, powders, and dry products during free-fall operations, ensuring safety and quality.
+            </p>
+            <div className="flex items-center flex-wrap">
+              <a className="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 hover:text-purple-700 hover:underline">Learn More
+                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
-
-
 
 
 
