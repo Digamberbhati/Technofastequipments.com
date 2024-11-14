@@ -108,7 +108,7 @@ const Homepage = () => {
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
             <img src="https://i.postimg.cc/rwPLwJ5r/Tablet-Metal-Detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-              <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
+              <span className="text-white text-lg font-semibold">Table Metal Detector</span>
             </div>
           </div>
           {/* <!-- 5nd img --> */}
