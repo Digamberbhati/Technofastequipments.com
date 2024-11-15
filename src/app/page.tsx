@@ -98,7 +98,7 @@ const Homepage = () => {
 
           {/* <!-- 3rd img --> */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="https://i.postimg.cc/qqwZNJ67/Whats-App-Image-2024-11-13-at-11-43-40-8e5e12a6.jpg" alt="Blog Image 3" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src="https://i.postimg.cc/qqwZNJ67/Whats-App-Image-2024-11-13-at-11-43-40-8e5e12a6.jpg" alt="Manufacturer of Metal Detection" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
               <span className="text-white text-lg font-semibold">Manufacturer of Metal Detection</span>
             </div>
@@ -106,7 +106,7 @@ const Homepage = () => {
           
           {/* <!-- 4nd img --> */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="https://i.postimg.cc/rwPLwJ5r/Tablet-Metal-Detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src="https://i.postimg.cc/rwPLwJ5r/Tablet-Metal-Detector.png" alt="Table Metal Detector" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
               <span className="text-white text-lg font-semibold">Table Metal Detector</span>
             </div>
@@ -120,9 +120,9 @@ const Homepage = () => {
           </div>
           {/* <!-- 6nd img --> */}
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Blog Image 2" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src="https://i.postimg.cc/BZKt989p/Industrial-Metal-Detector.png" alt="Industrial Metal Detector" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-              <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
+              <span className="text-white text-lg font-semibold">Industrial Metal Detector</span>
             </div>
           </div>
 
@@ -166,8 +166,8 @@ const Homepage = () => {
           <div className="container mx-auto px-6">
             {/* <!-- Title --> */}
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold text-black mb-4">Why Choose Us</h2>
-              <p className="text-gray-500 text-lg">Experience unmatched precision and reliability with Technofast Equipments – your trusted partner in advanced Metal Detection Technology!</p>
+              <h2 className="text-3xl font-serif text-black mb-4">Why Choose Us</h2>
+              <p className="text-gray-500 text-lg font-bold">Experience unmatched precision and reliability with Technofast Equipments – your trusted partner in advanced Metal Detection Technology!</p>
             </div>
 
             {/* <!-- Facts Grid --> */}
@@ -177,8 +177,8 @@ const Homepage = () => {
                 <div className="mb-4">
                   <span className="text-5xl font-extrabold text-blue-600">20+</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">Years of Experience</h3>
-                <p className="text-gray-500">With over 20 years of mastery, Technofast Equipments transforms innovation into excellence you can trust!.</p>
+                <h3 className="text-xl font-serif text-gray-700 mb-2">Years of Experience</h3>
+                <p className="text-gray-500 font-extrabold">With over 20 years of mastery, Technofast Equipments transforms innovation into excellence you can trust!.</p>
               </div>
               {/*  */}
 
@@ -188,8 +188,8 @@ const Homepage = () => {
                 <div className="mb-4">
                   <span className="text-5xl font-extrabold text-blue-600">500+</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">Clients Worldwide</h3>
-                <p className="text-gray-500">With over 500 clients worldwide, Technofast Equipments is a global leader, delivering state-of-the-art metal detector solutions that ensure unmatched reliability and precision!"</p>
+                <h3 className="text-xl font-serif text-gray-700 mb-2">Clients Worldwide</h3>
+                <p className="text-gray-500 font-extrabold">With over 500 clients worldwide, Technofast Equipments is a global leader, delivering state-of-the-art metal detector solutions that ensure unmatched reliability and precision!"</p>
               </div>
 
               {/* <!-- Fact 3 --> */}
@@ -197,8 +197,8 @@ const Homepage = () => {
                 <div className="mb-4">
                   <span className="text-5xl font-extrabold text-blue-600">100%</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">Customer Satisfaction</h3>
-                <p className="text-gray-500">At Technofast Equipments, customer satisfaction is our global commitment. We deliver top-tier metal detection solutions that go beyond expectations, fostering trust and lasting partnerships across the world!</p>
+                <h3 className="text-xl font-serif text-gray-700 mb-2">Customer Satisfaction</h3>
+                <p className="text-gray-500 font-extrabold">At Technofast Equipments, customer satisfaction is our global commitment. We deliver top-tier metal detection solutions that go beyond expectations, fostering trust and lasting partnerships across the world!</p>
               </div>
             </div>
 
@@ -209,8 +209,8 @@ const Homepage = () => {
                 <div className="mb-4">
                   <span className="text-5xl font-extrabold text-blue-600">24/7</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">Support Availability</h3>
-                <p className="text-gray-500">Stay powered 24/7 with Technofast Equipments – our expert support is always just a call or message away, providing fast and reliable solutions anytime, anywhere!</p>
+                <h3 className="text-xl font-serif text-gray-700 mb-2">Support Availability</h3>
+                <p className="text-gray-500 font-extrabold">Stay powered 24/7 with Technofast Equipments – our expert support is always just a call or message away, providing fast and reliable solutions anytime, anywhere!</p>
               </div>
 
               {/* <!-- Fact 5 --> */}
@@ -218,8 +218,8 @@ const Homepage = () => {
                 <div className="mb-4">
                   <span className="text-5xl font-extrabold text-blue-600">10+</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">Innovative Machines</h3>
-                <p className="text-gray-500">Gravity Feed Metal Detector,Micro Scan Metal Detector, Dry Fruits Metal Detector, Needle Metal Detector,Liquid Metal Detector,Pipeline Metal Detector, Conveyor Metal Detector, Pharmaceutical Tablet Metal Detector, Degree Metal Detector, Candy Conveyor Metal Detector.</p>
+                <h3 className="text-xl font-serif text-gray-700 mb-2">Innovative Machines</h3>
+                <p className="text-gray-500 font-extrabold">Gravity Feed Metal Detector,Micro Scan Metal Detector, Dry Fruits Metal Detector, Needle Metal Detector,Liquid Metal Detector,Pipeline Metal Detector, Conveyor Metal Detector, Pharmaceutical Tablet Metal Detector, Degree Metal Detector, Candy Conveyor Metal Detector.</p>
               </div>
             </div>
           </div>
@@ -246,10 +246,10 @@ const Homepage = () => {
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
             
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 "> MICROSCA METAL DETECTOR</h2>
+              <h2 className="tracking-widest text-xs title-font font-semibold text-black  "> MICROSCA METAL DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-mono text-gray-900 mb-3">Microscan Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-semibold">
+            <h1 className="title-font text-lg font-extrabold text-gray-900 mb-3">Microscan Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-thin hover:font-serif">
               A compact and precise metal detection system designed for high sensitivity in identifying small metal contaminants in food, pharmaceuticals, and packaging industries. This advanced solution ensures compliance with industry standards while maintaining product quality and safety.
             </p>
           </div>
@@ -263,10 +263,10 @@ const Homepage = () => {
             <div className="flex items-center mb-2">
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="blog" />
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">PIPELINE DETECTOR</h2>
+              <h2 className="tracking-widest text-xs title-font font-semibold text-black ">PIPELINE DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-mono text-gray-900 mb-3">Pipeline Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-semibold">
+            <h1 className="title-font text-lg font-extrabold text-gray-900 mb-3">Pipeline Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-thin hover:font-serif">
               Specially designed for inspecting liquid and paste products in pipelines, ensuring the detection and removal of metal particles before further processing. The Pipeline Metal Detector is ideal for dairy, sauces, and beverage industries.
             </p>
           </div>
@@ -280,10 +280,10 @@ const Homepage = () => {
             <div className="flex items-center mb-2">
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
-              <h2 className="tracking-widest text-xs title-font font-medium text-gray-400">GRAVITY DETECTOR</h2>
+              <h2 className="tracking-widest text-xs title-font font-semibold text-black ">GRAVITY DETECTOR</h2>
             </div>
-            <h1 className="title-font text-lg font-mono text-gray-900 mb-3">Gravity Feed Metal Detector</h1>
-            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none  font-semibold">
+            <h1 className="title-font text-lg font-extrabold text-gray-900 mb-3">Gravity Feed Metal Detector</h1>
+            <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-thin hover:font-serif">
               Ideal for inspecting bulk materials such as grains, powders, and dry products during free-fall operations, ensuring safety and quality. The system is easy to integrate and offers exceptional accuracy for high-speed processing.
             </p>
           </div>
