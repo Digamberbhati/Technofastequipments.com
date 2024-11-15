@@ -357,8 +357,14 @@ const Homepage = () => {
         
 {/* Popular Machines section */}
 
+
+
 <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
+
+  <div className="text-center mb-10">
+              <h2 className="text-3xl font-serif text-black mb-4">Our Most Importent Machines</h2>
+              </div>
     {/* Flex container to hold all three sections horizontally */}
     <div className="flex flex-wrap -m-4">
       
