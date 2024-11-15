@@ -11,7 +11,8 @@ const Servicepage = () => {
   return (
     <>
     
-   
+   <br/>
+   <br/>
 
     {/* <div className="bg-gradient-to-r bg-white  to-white py-16"> */}
     <div className="bg-gradient-to-r from-purple-400 to-indigo-100 py-16">

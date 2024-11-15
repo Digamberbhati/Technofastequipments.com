@@ -51,7 +51,7 @@ const Homepage = () => {
       </div>
 
 
-      <section className="bg-slate-400 py-20">
+      <section className="bg-white py-20">
         <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-12">
           <h2 className="text-4xl text-slate-100 mb-4 py-3 font-extrabold rounded-md bg-slate-900">Company Profile</h2>
           <p className="text-lg text-slate-900 font-serif mb-6">
@@ -61,17 +61,17 @@ const Homepage = () => {
           <h2 className="font-extrabold text-white bg-slate-900 text-3xl rounded-md">OUR RANGE OF PRODUCTION FOR FOOD:</h2>
           <br />
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2 font-mono font-bold">
-            <div className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-              <p className="text-black">Tecnofast Equipment Micro Scan Metal Detection</p>
+            <div className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-slate-700">
+              <p className="text-white">Tecnofast Equipment Micro Scan Metal Detection</p>
             </div>
-            <div className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-              <p className="text-black">Technofast Equipment Ferrous In Foil Metal Detection</p>
+            <div className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-slate-700">
+              <p className="text-white">Technofast Equipment Ferrous In Foil Metal Detection</p>
             </div>
-            <div className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-              <p className="text-black">Tecnofast Equipment Gravity Feed Metaldector</p>
+            <div className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-slate-700">
+              <p className="text-white">Tecnofast Equipment Gravity Feed Metaldector</p>
             </div>
-            <div className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-gray-100">
-              <p className="text-black">Technofast Equipment Pipe Line Metal</p>
+            <div className="text-center p-6 border rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 bg-slate-700">
+              <p className="text-white">Technofast Equipment Pipe Line Metal</p>
             </div>
           </div>
         </div>
@@ -80,7 +80,12 @@ const Homepage = () => {
 
 
         {/* image section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-6">
+        <div className="text-center mx-44 py-6" >
+          <h1 className="font-serif text-4xl text-black ">
+            Our Machines
+            </h1>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-6 bg-slate-500">
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
             <img src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="Pipeline Metal Detector" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
@@ -89,7 +94,7 @@ const Homepage = () => {
           </div>
 
           {/* <!-- 2nd img --> */}
-          <div className="relative group overflow-hidden rounded-lg shadow-lg">
+          <div className="relative group overflow-hidden rounded-lg shadow-lg ">
             <img src="https://i.postimg.cc/gcL9g8Fz/Conveyor-Metal-detector.png" alt="Conveyor Metal Detector" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
               <span className="text-white text-lg font-semibold">Conveyor Metal Detector</span>
@@ -128,6 +133,125 @@ const Homepage = () => {
 
           {/* <!-- Repeat as needed for more blog items --> */}
         </div>
+
+        {/* service section */}
+
+        <section className="bg-gray-50 py-16 px-8">
+  <div className="max-w-7xl mx-auto text-center">
+    <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
+    <p className="text-gray-600 text-lg mb-10">
+      We offer a range of innovative and customer-focused services designed to meet your needs. Discover how we can help you achieve your goals.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+    {/* <!-- Service Card --> */}
+    <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300">
+      <div className="flex items-center justify-center h-16 w-16 bg-blue-100 text-blue-600 rounded-full mb-4">
+        <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M10 2a6 6 0 00-6 6v4H3a2 2 0 000 4h14a2 2 0 000-4h-1V8a6 6 0 00-6-6z"></path>
+        </svg>
+      </div>
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">Custom Development</h3>
+      <p className="text-gray-600">
+        Tailored software solutions to drive your business forward with precision and innovation.
+      </p>
+    </div>
+
+    {/* <!-- Service Card --> */}
+    <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300">
+      <div className="flex items-center justify-center h-16 w-16 bg-green-100 text-green-600 rounded-full mb-4">
+        <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M13 7H7v6h6V7z"></path>
+          <path fill-rule="evenodd" d="M5 2a1 1 0 00-1 1v14a1 1 0 001 1h10a1 1 0 001-1V3a1 1 0 00-1-1H5zm9 14H6V4h8v12z" clip-rule="evenodd"></path>
+        </svg>
+      </div>
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">Consulting Services</h3>
+      <p className="text-gray-600">
+        Expert advice to optimize your operations and achieve strategic business objectives.
+      </p>
+    </div>
+
+    {/* <!-- Service Card --> */}
+    <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300">
+      <div className="flex items-center justify-center h-16 w-16 bg-yellow-100 text-yellow-600 rounded-full mb-4">
+        <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M5 10a5 5 0 1110 0 5 5 0 01-10 0zM2 10a8 8 0 1116 0 8 8 0 01-16 0z" clip-rule="evenodd"></path>
+        </svg>
+      </div>
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">Maintenance & Support</h3>
+      <p className="text-gray-600">
+        Reliable support and maintenance to ensure your systems operate seamlessly.
+      </p>
+    </div>
+  </div>
+
+  <div className="mt-12 text-center">
+    <a href="#"
+      className="bg-blue-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300">
+      Learn More About Our Services
+    </a>
+  </div>
+</section>
+
+
+{/* career section */}
+<section className="bg-gray-100 py-16 px-8">
+  <div className="max-w-7xl mx-auto text-center">
+    <h2 className="text-4xl font-bold text-gray-800 mb-6">Join Our Team</h2>
+    <p className="text-gray-600 text-lg mb-10">
+      We're always on the lookout for passionate individuals to help us create a brighter future. Check out our open positions below and take the next step in your career!
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+    {/* <!-- Job Card --> */}
+    <div className="bg-white shadow-lg rounded-lg p-6">
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">Software Developer</h3>
+      <p className="text-gray-600 mb-4">
+        Help us build cutting-edge web applications. Work with a talented team in a fast-paced environment.
+      </p>
+      <div className="flex justify-between items-center">
+        <span className="text-sm text-gray-500">Location: Remote</span>
+        <a href="#" className="text-blue-600 font-medium hover:underline">View Details</a>
+      </div>
+    </div>
+
+    {/* <!-- Job Card --> */}
+    <div className="bg-white shadow-lg rounded-lg p-6">
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">UI/UX Designer</h3>
+      <p className="text-gray-600 mb-4">
+        Craft user-friendly interfaces and elevate user experiences with your design skills.
+      </p>
+      <div className="flex justify-between items-center">
+        <span className="text-sm text-gray-500">Location: On-Site</span>
+        <a href="#" className="text-blue-600 font-medium hover:underline">View Details</a>
+      </div>
+    </div>
+
+    {/* <!-- Job Card --> */}
+    <div className="bg-white shadow-lg rounded-lg p-6">
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">Marketing Specialist</h3>
+      <p className="text-gray-600 mb-4">
+        Drive growth and engagement by creating and executing strategic marketing campaigns.
+      </p>
+      <div className="flex justify-between items-center">
+        <span className="text-sm text-gray-500">Location: Hybrid</span>
+        <a href="#" className="text-blue-600 font-medium hover:underline">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <div className="mt-12 text-center">
+    <p className="text-gray-600 mb-6">
+      Don’t see a role that matches your skills? Send us your resume, and we'll get in touch when the right opportunity arises.
+    </p>
+    <a href="#"
+      className="bg-blue-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300">
+      Submit Your Resume
+    </a>
+  </div>
+</section>
 
 
         {/* container section */}
@@ -228,7 +352,7 @@ const Homepage = () => {
         {/* our products */}
         {/* our products */}
         <div className='bg-white'>
-<h2 className="text-4xl text-slate-100 text-center py-3 px-3 mx-96 font-extrabold rounded-full bg-slate-900 hover:shadow-lg transition duration-300 hover:text-white">Our Most Popular Machines</h2><br></br>
+{/* <h2 className="text-4xl text-slate-100 text-center py-3 px-3 mx-96 font-extrabold rounded-full bg-slate-900 hover:shadow-lg transition duration-300 hover:text-white">Our Most Popular Machines</h2><br></br> */}
 
         
 {/* Popular Machines section */}
@@ -310,7 +434,7 @@ const Homepage = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* <!-- Contact Form --> */}
-              <div className="bg-gradient-to-r from-blue-500 to-blue-100 p-8 rounded-lg shadow-lg">
+              <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-semibold text-white mb-6">Send Us a Message</h3>
                 <form action="#">
                   <div className="mb-4">
@@ -330,7 +454,7 @@ const Homepage = () => {
               </div>
 
               {/* <!-- Contact Information --> */}
-              <div className="bg-gradient-to-r from-blue-500 to-blue-100 p-8 rounded-lg shadow-lg">
+              <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-6">Contact Information</h3>
                 <ul>
                   <li className="mb-4">
