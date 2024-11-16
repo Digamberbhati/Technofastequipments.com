@@ -64,7 +64,7 @@ function Navbar({ className }: { className?: string }) {
           </div>
 
           {/* Links for desktop */}
-          <div className="hidden md:flex items-center gap-10">
+          <div className="hidden md:flex items-center gap-10 text-black hover:">
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/service">Service</Link>
