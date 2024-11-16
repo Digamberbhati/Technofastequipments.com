@@ -90,9 +90,9 @@ const Homepage = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-6 bg-slate-500">
           <div className="relative group overflow-hidden rounded-lg shadow-lg">
-            <img src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="Pipeline Metal Detector" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
+            <img src=" https://i.postimg.cc/qRbMVZNt/Liquid-Metal-Detector.png" alt="Pipeline Metal Detector" className="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300 ease-in-out" />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-              <span className="text-white text-lg font-semibold">Pipeline Metal Detector</span>
+              <span className="text-white text-lg font-semibold">Liquid Metal Detector</span>
             </div>
           </div>
 
