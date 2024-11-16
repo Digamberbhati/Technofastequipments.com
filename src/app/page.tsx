@@ -11,7 +11,7 @@ const Homepage = () => {
     <>
       <div className="relative h-screen w-full">
         {/* Background Image */}
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/img/background-image.jpg)' }}>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/background image.jpg)' }}>
           {/* Overlay */}
           <div className="absolute inset-0 bg-black opacity-50"></div>
 
