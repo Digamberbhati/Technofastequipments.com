@@ -9,8 +9,8 @@ const CompanyProfile = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Section: Image or Icon and Text */}
           <div className="flex flex-col items-center text-center md:text-left">
-           <img src="https://i.postimg.cc/2yB5m7RC/logo.png" alt="logo" />
-            <h3 className="mt-4 text-xl font-semibold text-black">Phoebe Caulfield</h3>
+           <img src="https://i.postimg.cc/2yB5m7RC/logo.png" alt="logo" className="h-80" />
+            <h3 className="mt-4 text-xl font-semibold text-black">Technofast Equipments Pvt.Ltd</h3>
             <div className="mt-2 h-0.5 bg-blue-500 w-16"></div>
             <p className="mt-4 text-sm leading-relaxed text-slate-800">
               Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.
@@ -98,7 +98,7 @@ const CompanyProfile = () => {
               htmlFor="faq2"
               className="flex justify-between items-center w-full px-6 py-4 text-left cursor-pointer text-gray-800 hover:bg-gray-50"
             >
-              <span className="text-lg font-serif">HOW DOES METAL GET INTOA FOOD: -
+              <span className="text-lg font-serif">HOW DOES METAL GET INTO A FOOD: -
               </span>
               <svg
                 className="w-5 h-5 text-gray-500 transition-transform transform peer-checked:rotate-180"
