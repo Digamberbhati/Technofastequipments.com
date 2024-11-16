@@ -3,29 +3,36 @@ import React from 'react';
 const CompanyProfile = () => {
   return (
     <>
-    <br/>
-    <br/>
+      <br />
+      <br />
       <div className="bg-slate-200 text-gray-300 py-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Section: Image or Icon and Text */}
           <div className="flex flex-col items-center text-center md:text-left">
-           <img src="https://i.postimg.cc/2yB5m7RC/logo.png" alt="logo" className="h-80" />
+            <img src="https://i.postimg.cc/2yB5m7RC/logo.png" alt="logo" className="h-80" />
             <h3 className="mt-4 text-xl font-semibold text-black">Technofast Equipments Pvt.Ltd</h3>
             <div className="mt-2 h-0.5 bg-blue-500 w-16"></div>
             <p className="mt-4 text-sm leading-relaxed text-slate-800">
-            We Provide Reliable & Innvoative Soulution For Checking Metal Contamination In Food Pocessing Line
+              We Provide Reliable & Innvoative Soulution For Checking Metal Contamination In Food Pocessing Line
             </p>
           </div>
 
           {/* Right Section: Text Content */}
+
           <div>
-            
-            <p className="leading-relaxed text-black">
-           
-             </p>
-            <a href="#" className="inline-block mt-4 text-blue-500 hover:text-blue-300 transition duration-300">
+            <div className="py-20">
+              <h1 className="text-black text-4xl">If anyone wants more information about our products, you can contact us:-</h1>
+            </div>
+            <br />
+            <p className="leading-relaxed text-black mb-4">
+              <span className="block font-serif text-red-500 text-xl">Phone</span>
+              <p className="text-lg text-blue-500">+918930109050, +919467751411, +917988309282</p>
+              <span className="block font-serif text-red-500 text-xl">Email</span>
+              <p className="text-lg text-blue-500">technofastequipments@gmail.com</p>
+            </p>
+            {/* <a href="#" className="inline-block mt-4 text-blue-500 hover:text-blue-300 transition duration-300">
               Learn More →
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

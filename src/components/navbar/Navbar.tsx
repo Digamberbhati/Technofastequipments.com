@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image"
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -23,10 +24,16 @@ function Navbar({ className }: { className?: string }) {
           {/* Logo */}
           <div className="text-2xl font-bold">
             <Link href="/">
-              <img
-                src="\img\Logo.png" // Replace with the actual path to your logo
+              {/* <img
+                src="\img\logo.png" // Replace with the actual path to your logo
                 alt="Logo"
                 className="h-8 w-auto" // Adjust height/width as needed
+              /> */}
+                 <Image
+                src="/logo.png" // Replace with the actual path to your logo
+                alt="Logo"
+                width={100}
+                height={75} // Adjust height/width as needed
               />
             </Link>
           </div>
