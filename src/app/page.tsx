@@ -195,93 +195,14 @@ const Homepage = () => {
 </section>
 
 
-{/* career section */}
-<section className="bg-gray-100 py-16 px-8">
-  <div className="max-w-7xl mx-auto text-center">
-    <h2 className="text-4xl font-bold text-gray-800 mb-6">Join Our Team</h2>
-    <p className="text-gray-600 text-lg mb-10">
-      We're always on the lookout for passionate individuals to help us create a brighter future. Check out our open positions below and take the next step in your career!
-    </p>
-  </div>
 
-  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-    {/* <!-- Job Card --> */}
-    <div className="bg-white shadow-lg rounded-lg p-6">
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">Software Developer</h3>
-      <p className="text-gray-600 mb-4">
-        Help us build cutting-edge web applications. Work with a talented team in a fast-paced environment.
-      </p>
-      <div className="flex justify-between items-center">
-        <span className="text-sm text-gray-500">Location: Remote</span>
-        <a href="#" className="text-blue-600 font-medium hover:underline">View Details</a>
-      </div>
-    </div>
 
-    {/* <!-- Job Card --> */}
-    <div className="bg-white shadow-lg rounded-lg p-6">
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">UI/UX Designer</h3>
-      <p className="text-gray-600 mb-4">
-        Craft user-friendly interfaces and elevate user experiences with your design skills.
-      </p>
-      <div className="flex justify-between items-center">
-        <span className="text-sm text-gray-500">Location: On-Site</span>
-        <a href="#" className="text-blue-600 font-medium hover:underline">View Details</a>
-      </div>
-    </div>
-
-    {/* <!-- Job Card --> */}
-    <div className="bg-white shadow-lg rounded-lg p-6">
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">Marketing Specialist</h3>
-      <p className="text-gray-600 mb-4">
-        Drive growth and engagement by creating and executing strategic marketing campaigns.
-      </p>
-      <div className="flex justify-between items-center">
-        <span className="text-sm text-gray-500">Location: Hybrid</span>
-        <a href="#" className="text-blue-600 font-medium hover:underline">View Details</a>
-      </div>
-    </div>
-  </div>
-
-  <div className="mt-12 text-center">
-    <p className="text-gray-600 mb-6">
-      Don’t see a role that matches your skills? Send us your resume, and we'll get in touch when the right opportunity arises.
-    </p>
-    <a href="#"
-      className="bg-blue-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300">
-      Submit Your Resume
-    </a>
-  </div>
-</section>
 
 
         {/* container section */}
 
 
-        {/* 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="bg-lime-200 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Our  Vision
-            </h3>
-            <p className="text-gray-600 mb-4">Read more..</p>
-            <a href="graphic Designing.html" className="text-indigo-600 font-semibold hover:underline">Learn More</a>
-          </div> */}
-
-
-        {/* sec-2 */}
-        {/* <div className="bg-lime-200 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Our Mision
-            </h3>
-            <p className="text-gray-600 mb-4">Read more..</p>
-            <a href="graphic Designing.html" className="text-indigo-600 font-semibold hover:underline">Learn More</a>
-          </div> */}
-
-        {/* sec-3 */}
-        {/* <div className="bg-lime-200 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Our Value</h3>
-            <p className="text-gray-600 mb-4">Read more...</p>
-            <a href="graphic Designing.html" className="text-indigo-600 font-semibold hover:underline">Learn More</a>
-          </div> */}
-
+        
 
         {/* choise */}
 
