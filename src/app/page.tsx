@@ -142,55 +142,57 @@ const Homepage = () => {
         {/* service section */}
 
         <section className="bg-gray-50 py-16 px-8">
-  <div className="max-w-7xl mx-auto text-center">
-    <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
-    <p className="text-gray-600 text-lg mb-10">
-      We offer a range of innovative and customer-focused services designed to meet your needs. Discover how we can help you achieve your goals.
+        <div className="max-w-7xl mx-auto text-center">
+  <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
+  <p className="text-gray-600 text-lg mb-10">
+    Unlock the full potential of your business with our tailored services—delivering excellence, precision, and peace of mind with every product, installation, and support we provide.
+  </p>
+</div>
+
+
+  
+    
+
+
+  
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  {/* <!-- Service Card --> */}
+  <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300 transform hover:scale-105">
+    <div className="flex items-center justify-center h-16 w-16 bg-blue-100 text-blue-600 rounded-full mb-4">
+      <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M10 2a6 6 0 00-6 6v4H3a2 2 0 000 4h14a2 2 0 000-4h-1V8a6 6 0 00-6-6z"></path>
+      </svg>
+    </div>
+    <h3 className="text-xl font-semibold text-gray-800 mb-2">On-Time Free Delivery</h3>
+    <p className="text-gray-600">
+      At Technofast Equipments, we understand that timing is everything. That’s why we offer on-time free delivery for all our products, ensuring that your equipment reaches you promptly and securely—whether you're in India or anywhere in the world. With real-time tracking, you can stay updated and confident that your order is in safe hands. Enjoy peace of mind with our reliable and hassle-free delivery service, without any hidden costs or delays.
     </p>
   </div>
 
-  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-    {/* <!-- Service Card --> */}
-    <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300">
-      <div className="flex items-center justify-center h-16 w-16 bg-blue-100 text-blue-600 rounded-full mb-4">
-        <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M10 2a6 6 0 00-6 6v4H3a2 2 0 000 4h14a2 2 0 000-4h-1V8a6 6 0 00-6-6z"></path>
-        </svg>
-      </div>
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">On-Time Free Delivery</h3>
-      <p className="text-gray-600">
-      At Technofast Equipments, we understand that timing is everything. That’s why we offer on-time free delivery for all our products, ensuring that your equipment reaches you promptly and securely—whether you're in India or anywhere in the world. With real-time tracking, you can stay updated and confident that your order is in safe hands. Enjoy peace of mind with our reliable and hassle-free delivery service, without any hidden costs or delays.
-      </p>
+  {/* <!-- Service Card --> */}
+  <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300 transform hover:scale-105">
+    <div className="flex items-center justify-center h-16 w-16 bg-green-100 text-green-600 rounded-full mb-4">
+      <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M13 7H7v6h6V7z"></path>
+        <path fill-rule="evenodd" d="M5 2a1 1 0 00-1 1v14a1 1 0 001 1h10a1 1 0 001-1V3a1 1 0 00-1-1H5zm9 14H6V4h8v12z" clip-rule="evenodd"></path>
+      </svg>
     </div>
-
-    {/* <!-- Service Card --> */}
-    <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300">
-      <div className="flex items-center justify-center h-16 w-16 bg-green-100 text-green-600 rounded-full mb-4">
-        <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M13 7H7v6h6V7z"></path>
-          <path fill-rule="evenodd" d="M5 2a1 1 0 00-1 1v14a1 1 0 001 1h10a1 1 0 001-1V3a1 1 0 00-1-1H5zm9 14H6V4h8v12z" clip-rule="evenodd"></path>
-        </svg>
-      </div>
-      <h3 className="text-xl font-semibold text-gray-800 mb-2"> Free Installation Services</h3>
-      <p className="text-gray-600">
+    <h3 className="text-xl font-semibold text-gray-800 mb-2">Free Installation Services</h3>
+    <p className="text-gray-600">
       Let us make your experience even easier with our free installation services. Our expert technicians will handle every detail—from setup to calibration—ensuring your equipment is perfectly configured and ready to use. Whether you're in India or overseas, we bring professional service directly to you, so you can start using your equipment right away. With no extra charge for installation, we make sure you get the best value without any hassle.
-      </p>
-    </div>
-
-   
-
-
+    </p>
+  </div>
 
   {/* <!-- Service Card --> */}
-  <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300">
+  <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300 transform hover:scale-105">
     <div className="flex items-center justify-center h-16 w-16 bg-yellow-100 text-yellow-600 rounded-full mb-4">
       <svg className="h-8 w-8" fill="currentColor" viewBox="0 0 20 20">
         <path fill-rule="evenodd" d="M5 10a5 5 0 1110 0 5 5 0 01-10 0zM2 10a8 8 0 1116 0 8 8 0 01-16 0z" clip-rule="evenodd"></path>
       </svg>
     </div>
     <h3 className="text-xl font-semibold text-gray-800 mb-2">One-Year Warranty</h3>
-    <p className="text-gray-600 max-h-20 ">
-    With Technofast Equipments, your investment is fully protected. Our one-year warranty covers any manufacturing defects, giving you the confidence that your equipment is built to last. Whether you’re in India or across the globe, our dedicated customer support team is always available to assist, ensuring your equipment stays in perfect working order. Enjoy long-term reliability, backed by our commitment to excellence.
+    <p className="text-gray-600">
+      With Technofast Equipments, your investment is fully protected. Our one-year warranty covers any manufacturing defects, giving you the confidence that your equipment is built to last. Whether you’re in India or across the globe, our dedicated customer support team is always available to assist, ensuring your equipment stays in perfect working order. Enjoy long-term reliability, backed by our commitment to excellence.
     </p>
   </div>
 </div>
@@ -205,9 +207,6 @@ const Homepage = () => {
     </a>
   </div>
 </section>
-
-
-
 
 
 
@@ -365,7 +364,7 @@ const Homepage = () => {
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
             
-              <h2 className="tracking-widest text-xs title-font font-semibold text-black  "> MICROSCA METAL DETECTOR</h2>
+              {/* <h2 className="tracking-widest text-xs title-font font-semibold text-black  "> MICROSCA METAL DETECTOR</h2> */}
             </div>
             <h1 className="title-font text-lg font-extrabold text-gray-900 mb-3">Microscan Metal Detector</h1>
             <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-thin hover:font-serif">
@@ -382,7 +381,7 @@ const Homepage = () => {
             <div className="flex items-center mb-2">
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/rsZLRC73/Pipeline-metal-detector.png" alt="blog" />
-              <h2 className="tracking-widest text-xs title-font font-semibold text-black ">PIPELINE DETECTOR</h2>
+              {/* <h2 className="tracking-widest text-xs title-font font-semibold text-black ">PIPELINE DETECTOR</h2> */}
             </div>
             <h1 className="title-font text-lg font-extrabold text-gray-900 mb-3">Pipeline Metal Detector</h1>
             <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-thin hover:font-serif">
@@ -399,7 +398,7 @@ const Homepage = () => {
             <div className="flex items-center mb-2">
               {/* Image before machine name */}
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://i.postimg.cc/G2mx2FRZ/Micro.png" alt="blog" />
-              <h2 className="tracking-widest text-xs title-font font-semibold text-black ">GRAVITY DETECTOR</h2>
+              {/* <h2 className="tracking-widest text-xs title-font font-semibold text-black ">GRAVITY DETECTOR</h2> */}
             </div>
             <h1 className="title-font text-lg font-extrabold text-gray-900 mb-3">Gravity Feed Metal Detector</h1>
             <p className="leading-relaxed mb-3 overflow-hidden line-clamp-3 hover:overflow-visible hover:line-clamp-none font-thin hover:font-serif">
