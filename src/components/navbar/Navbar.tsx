@@ -66,7 +66,7 @@ function Navbar({ className }: { className?: string }) {
           {/* Links for desktop */}
           <div className="hidden md:flex items-center gap-10">
             <Link href="/">Home</Link>
-            <Link href="/companyprofile">Company Profile</Link>
+            <Link href="/about">About</Link>
             <Link href="/service">Service</Link>
             <Link href="/careers">Careers</Link>
             <Link href="/contact">Contact</Link>
