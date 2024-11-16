@@ -20,7 +20,7 @@ function Navbar({ className }: { className?: string }) {
   return (
     <div className={cn("fixed top-0 w-full z-50", className)}>
       <Menu setActive={setActive}>
-        <div className="flex w-full items-center justify-between py-4 px-4 md:px-8">
+        <div className="flex w-full items-center justify-between py-0 px-4 md:px-8">
           {/* Logo */}
           <div className="text-2xl font-bold">
             <Link href="/">
@@ -33,7 +33,7 @@ function Navbar({ className }: { className?: string }) {
                 src="/logo.png" // Replace with the actual path to your logo
                 alt="Logo"
                 width={100}
-                height={75} // Adjust height/width as needed
+                height={50} // Adjust height/width as needed
               />
             </Link>
           </div>
@@ -71,7 +71,7 @@ function Navbar({ className }: { className?: string }) {
           </div>
 
           {/* Links for desktop */}
-          <div className="hidden md:flex items-center gap-10 text-black hover:">
+          <div className="hidden md:flex items-center gap-10 text-black text-xl">
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/service">Service</Link>
