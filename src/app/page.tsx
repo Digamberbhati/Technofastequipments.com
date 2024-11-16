@@ -155,9 +155,14 @@ const Homepage = () => {
           <path d="M10 2a6 6 0 00-6 6v4H3a2 2 0 000 4h14a2 2 0 000-4h-1V8a6 6 0 00-6-6z"></path>
         </svg>
       </div>
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">Custom Development</h3>
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">On-Time Free Delivery</h3>
       <p className="text-gray-600">
-        Tailored software solutions to drive your business forward with precision and innovation.
+      When you choose Technofast Equipments, you’re investing in peace of mind. We proudly offer a one-year warranty on all of our products. This warranty is our promise to you that we stand behind our equipment, with continuous support for a full year after purchase.
+Whether you're an Indian customer or a client from another part of the world, you can count on us to provide you with exceptional after-sales service. Our expert team is always ready to assist with any issues, ensuring that your equipment operates at its best, day in and day out.
+<li>Comprehensive Coverage:</li>
+ The warranty covers manufacturing defects and ensures your equipment stays in optimal condition.
+<li>Global Support:</li> Our dedicated customer service team is available for international clients as well, offering remote troubleshooting and fast resolution to issues—no matter your location.
+<li>No Hidden Costs:</li> With a one-year warranty, you won’t have to worry about unexpected repair expenses.
       </p>
     </div>
 
@@ -169,7 +174,7 @@ const Homepage = () => {
           <path fill-rule="evenodd" d="M5 2a1 1 0 00-1 1v14a1 1 0 001 1h10a1 1 0 001-1V3a1 1 0 00-1-1H5zm9 14H6V4h8v12z" clip-rule="evenodd"></path>
         </svg>
       </div>
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">Consulting Services</h3>
+      <h3 className="text-xl font-semibold text-gray-800 mb-2"> Free Installation Services</h3>
       <p className="text-gray-600">
         Expert advice to optimize your operations and achieve strategic business objectives.
       </p>
@@ -182,7 +187,7 @@ const Homepage = () => {
           <path fill-rule="evenodd" d="M5 10a5 5 0 1110 0 5 5 0 01-10 0zM2 10a8 8 0 1116 0 8 8 0 01-16 0z" clip-rule="evenodd"></path>
         </svg>
       </div>
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">Maintenance & Support</h3>
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">One-Year Warranty</h3>
       <p className="text-gray-600">
         Reliable support and maintenance to ensure your systems operate seamlessly.
       </p>
@@ -287,7 +292,7 @@ const Homepage = () => {
   <div className="container px-5 py-24 mx-auto">
 
   <div className="text-center mb-10">
-              <h2 className="text-3xl font-serif text-black mb-4">Our Most Importent Machines</h2>
+              <h2 className="text-3xl font-serif text-black mb-4">Our Most Popular Machines</h2>
               </div>
     {/* Flex container to hold all three sections horizontally */}
     <div className="flex flex-wrap -m-4">
