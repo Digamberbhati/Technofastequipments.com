@@ -159,12 +159,7 @@ const Homepage = () => {
       </div>
       <h3 className="text-xl font-semibold text-gray-800 mb-2">On-Time Free Delivery</h3>
       <p className="text-gray-600">
-      When you choose Technofast Equipments, you’re investing in peace of mind. We proudly offer a one-year warranty on all of our products. This warranty is our promise to you that we stand behind our equipment, with continuous support for a full year after purchase.
-Whether you're an Indian customer or a client from another part of the world, you can count on us to provide you with exceptional after-sales service. Our expert team is always ready to assist with any issues, ensuring that your equipment operates at its best, day in and day out.
-<li>Comprehensive Coverage:</li>
- The warranty covers manufacturing defects and ensures your equipment stays in optimal condition.
-<li>Global Support:</li> Our dedicated customer service team is available for international clients as well, offering remote troubleshooting and fast resolution to issues—no matter your location.
-<li>No Hidden Costs:</li> With a one-year warranty, you won’t have to worry about unexpected repair expenses.
+      At Technofast Equipments, we understand that timing is everything. That’s why we offer on-time free delivery for all our products, ensuring that your equipment reaches you promptly and securely—whether you're in India or anywhere in the world. With real-time tracking, you can stay updated and confident that your order is in safe hands. Enjoy peace of mind with our reliable and hassle-free delivery service, without any hidden costs or delays.
       </p>
     </div>
 
@@ -178,7 +173,7 @@ Whether you're an Indian customer or a client from another part of the world, yo
       </div>
       <h3 className="text-xl font-semibold text-gray-800 mb-2"> Free Installation Services</h3>
       <p className="text-gray-600">
-        Expert advice to optimize your operations and achieve strategic business objectives.
+      Let us make your experience even easier with our free installation services. Our expert technicians will handle every detail—from setup to calibration—ensuring your equipment is perfectly configured and ready to use. Whether you're in India or overseas, we bring professional service directly to you, so you can start using your equipment right away. With no extra charge for installation, we make sure you get the best value without any hassle.
       </p>
     </div>
 
@@ -194,8 +189,8 @@ Whether you're an Indian customer or a client from another part of the world, yo
       </svg>
     </div>
     <h3 className="text-xl font-semibold text-gray-800 mb-2">One-Year Warranty</h3>
-    <p className="text-gray-600 max-h-20 overflow-hidden hover:max-h-full transition-all duration-300">
-      Reliable support and maintenance to ensure your systems operate seamlessly.
+    <p className="text-gray-600 max-h-20 ">
+    With Technofast Equipments, your investment is fully protected. Our one-year warranty covers any manufacturing defects, giving you the confidence that your equipment is built to last. Whether you’re in India or across the globe, our dedicated customer support team is always available to assist, ensuring your equipment stays in perfect working order. Enjoy long-term reliability, backed by our commitment to excellence.
     </p>
   </div>
 </div>
@@ -206,7 +201,7 @@ Whether you're an Indian customer or a client from another part of the world, yo
   <div className="mt-12 text-center">
     <a href="#"
       className="bg-blue-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300">
-      Learn More About Our Services
+      Read More About Our Services
     </a>
   </div>
 </section>
