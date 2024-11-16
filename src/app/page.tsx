@@ -227,40 +227,46 @@ const Homepage = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 relative z-10">
         {/* <!-- Step 1 --> */}
         <div className="flex flex-col items-center text-center">
-          <div className="flex items-center justify-center w-20 h-20 bg-blue-500 rounded-full">
-            <svg className="w-10 h-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m2 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
+          <div className="flex items-center justify-center w-20 h-20 ">
+          <svg className="w-10 h-10 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10c0 7.18 5.82 13 13 13 1.38 0 2.74-.18 4-.52a2 2 0 001.44-1.95v-2a2 2 0 00-2-2h-2.28a2 2 0 00-1.79 1.11l-.44.89a2 2 0 01-2.52.94A11.96 11.96 0 015.96 9.4a2 2 0 01.94-2.52l.89-.44A2 2 0 009 4.65V2.38a2 2 0 00-2-2H5.38a2 2 0 00-1.95 1.44A17.08 17.08 0 003 10z" />
+</svg>
+
+
           </div>
-          <h3 className="mt-4 text-xl font-semibold text-gray-800">Innovative Solutions</h3>
+          <h3 className="mt-4 text-xl font-semibold text-gray-800">Support Availability</h3>
           <p className="mt-2 text-gray-600">
-            We design creative, cutting-edge solutions tailored to your needs.
+          Support Availability
+          Stay powered 24/7 with Technofast Equipments – our expert support is always just a call or message away, providing fast and reliable solutions anytime, anywhere!
           </p>
         </div>
 
         {/* <!-- Step 2 --> */}
         <div className="flex flex-col items-center text-center">
-          <div className="flex items-center justify-center w-20 h-20 bg-green-500 rounded-full">
-            <svg className="w-10 h-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
+          <div className="flex items-center justify-center w-20 h-20 ">
+          <svg className="w-10 h-10 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+
           </div>
-          <h3 className="mt-4 text-xl font-semibold text-gray-800">Proven Quality</h3>
+          <h3 className="mt-4 text-xl font-semibold text-gray-800">Customer Satisfaction</h3>
           <p className="mt-2 text-gray-600">
-            Our track record speaks for itself, with consistent results every time.
+          At Technofast Equipments, customer satisfaction is our global commitment. We deliver top-tier metal detection solutions that go beyond expectations, fostering trust and lasting partnerships across the world!
           </p>
         </div>
 
         {/* <!-- Step 3 --> */}
         <div className="flex flex-col items-center text-center">
-          <div className="flex items-center justify-center w-20 h-20 bg-red-500 rounded-full">
-            <svg className="w-10 h-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1 0h.01m-6.938 4h13.856c.07 0 .137.01.203.029a2 2 0 01-.203-.029L12 7l-5.938 9z" />
-            </svg>
+          <div className="flex items-center justify-center w-20 h-20 bg-white-500 rounded-full">
+          <svg className="w-10 h-10 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zM12 2a10 10 0 0110 10M12 2a10 10 0 00-10 10m15-5a5 5 0 11-5-5m-3 7v3m0 4h.01M7 15a3 3 0 110-6m10 3a3 3 0 110 6" />
+</svg>
+
+
           </div>
-          <h3 className="mt-4 text-xl font-semibold text-gray-800">Trusted by Clients</h3>
+          <h3 className="mt-4 text-xl font-semibold text-gray-800">Clients Worldwide</h3>
           <p className="mt-2 text-gray-600">
-            Join our community of satisfied customers who trust us with their needs.
+          With over 500 clients worldwide, Technofast Equipments is a global leader, delivering state-of-the-art metal detector solutions that ensure unmatched reliability and precision!"
           </p>
         </div>
       </div>
