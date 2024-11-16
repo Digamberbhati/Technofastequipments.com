@@ -52,6 +52,9 @@ const Homepage = () => {
 
 
       <section className="bg-white py-20">
+        <div className="text-center">
+          <h1 className="text-black text-4xl ">About Section</h1>
+        </div>
         <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-12">
           <h2 className="text-4xl text-slate-100 mb-4 py-3 font-extrabold rounded-md bg-slate-900">Company Profile</h2>
           <p className="text-lg text-slate-900 font-serif mb-6">
