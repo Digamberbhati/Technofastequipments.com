@@ -149,11 +149,6 @@ const Homepage = () => {
   </p>
 </div>
 
-
-  
-    
-
-
   
 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
   {/* <!-- Service Card --> */}
@@ -213,7 +208,7 @@ const Homepage = () => {
         {/* container section */}
 
 {/* why choose us */}
-<div className="bg-gradient-to-r from-gray-100 to-gray-200 py-16">
+<div className=" bg-white py-16">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center">
       <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">Why Choose Us?</h2>
@@ -277,71 +272,7 @@ const Homepage = () => {
 
         
 
-        {/* choise */}
-
-        {/* <!-- Company Facts Section --> */}
-        <section className="bg-white py-12">
-          <div className="container mx-auto px-6">
-            {/* <!-- Title --> */}
-            <div className="text-center mb-10">
-              <h2 className="text-3xl font-serif text-black mb-4">Why Choose Us</h2>
-              <p className="text-gray-500 text-lg font-bold">Experience unmatched precision and reliability with Technofast Equipments – your trusted partner in advanced Metal Detection Technology!</p>
-            </div>
-
-            {/* <!-- Facts Grid --> */}
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* <!-- Fact 1 --> */}
-              <div className="bg-slate-200 rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
-                <div className="mb-4">
-                  <span className="text-5xl font-extrabold text-blue-600">20+</span>
-                </div>
-                <h3 className="text-xl font-serif text-gray-700 mb-2">Years of Experience</h3>
-                <p className="text-gray-500 font-extrabold">With over 20 years of mastery, Technofast Equipments transforms innovation into excellence you can trust!.</p>
-              </div>
-              {/*  */}
-
-
-              {/* <!-- Fact 2 --> */}
-              <div className="bg-slate-200 rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
-                <div className="mb-4">
-                  <span className="text-5xl font-extrabold text-blue-600">500+</span>
-                </div>
-                <h3 className="text-xl font-serif text-gray-700 mb-2">Clients Worldwide</h3>
-                <p className="text-gray-500 font-extrabold">With over 500 clients worldwide, Technofast Equipments is a global leader, delivering state-of-the-art metal detector solutions that ensure unmatched reliability and precision!"</p>
-              </div>
-
-              {/* <!-- Fact 3 --> */}
-              <div className="bg-slate-200 rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
-                <div className="mb-4">
-                  <span className="text-5xl font-extrabold text-blue-600">100%</span>
-                </div>
-                <h3 className="text-xl font-serif text-gray-700 mb-2">Customer Satisfaction</h3>
-                <p className="text-gray-500 font-extrabold">At Technofast Equipments, customer satisfaction is our global commitment. We deliver top-tier metal detection solutions that go beyond expectations, fostering trust and lasting partnerships across the world!</p>
-              </div>
-            </div>
-
-            {/* <!-- Additional Facts --> */}
-            <div className="grid md:grid-cols-2 gap-8 mt-10">
-              {/* <!-- Fact 4 --> */}
-              <div className="bg-slate-200 rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
-                <div className="mb-4">
-                  <span className="text-5xl font-extrabold text-blue-600">24/7</span>
-                </div>
-                <h3 className="text-xl font-serif text-gray-700 mb-2">Support Availability</h3>
-                <p className="text-gray-500 font-extrabold">Stay powered 24/7 with Technofast Equipments – our expert support is always just a call or message away, providing fast and reliable solutions anytime, anywhere!</p>
-              </div>
-
-              {/* <!-- Fact 5 --> */}
-              <div className="bg-slate-200 rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
-                <div className="mb-4">
-                  <span className="text-5xl font-extrabold text-blue-600">10+</span>
-                </div>
-                <h3 className="text-xl font-serif text-gray-700 mb-2">Innovative Machines</h3>
-                <p className="text-gray-500 font-extrabold">Gravity Feed Metal Detector,Micro Scan Metal Detector, Dry Fruits Metal Detector, Needle Metal Detector,Liquid Metal Detector,Pipeline Metal Detector, Conveyor Metal Detector, Pharmaceutical Tablet Metal Detector, Degree Metal Detector, Candy Conveyor Metal Detector.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+      
 
         {/* our products */}
         {/* our products */}
