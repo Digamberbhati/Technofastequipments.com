@@ -3,6 +3,8 @@ import TypingAnimation from "@/components/ui/typing-animation"; // Assuming Typi
 import styles from './Homepage.module.css'; // Import styles if using CSS module
 import PulsatingButton from "@/components/ui/pulsating-button";
 import { Section } from 'lucide-react';
+import Link from "next/link";
+import Image from "next/image"
 
 
 
@@ -11,9 +13,26 @@ const Homepage = () => {
     <>
       <div className="relative h-screen w-full">
         {/* Background Image */}
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/background image.jpg)' }}>
+        {/* <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/background image.jpg)' }}> */}
+
+        <div className="text-2xl font-bold">
+            <Link href="/">
+              {/* <img
+                src="\img\logo.png" // Replace with the actual path to your logo
+                alt="Logo"
+                className="h-8 w-auto" // Adjust height/width as needed
+              /> */}
+                 <Image
+                src="/public\matal detection.jpg" // Replace with the actual path to your logo
+                alt="Logo"
+                width={100}
+                height={50} // Adjust height/width as needed
+              />
+            </Link>
+          </div>
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+
+          <div className="absolute inset-0 opacity-1"></div>
 
           {/* Hero Content */}
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
@@ -48,7 +67,7 @@ const Homepage = () => {
 
           </div>
         </div>
-      </div>
+   
 
 
       <section className="bg-white py-20">
