@@ -54,11 +54,11 @@ const Servicepage = () => {
     <p className="text-gray-600 max-h-20 overflow-hidden hover:max-h-full transition-all duration-300">
     Setting up high-tech equipment should never be a hassle. That's why Technofast Equipments offers free professional installation for all of our products. Our highly trained technicians will ensure that your metal detectors and related equipment are installed with precision, optimized for peak performance, and ready to use immediately.
 From complex pharmaceutical applications in India to sophisticated food safety measures across global industries, we ensure that every installation meets the highest standards of quality and compliance.
-
-On-Site Expertise: Our installation specialists will visit your site to carry out a comprehensive, no-cost installation of your equipment.
-Global Reach: Whether you're based in a metropolitan city in India or a remote location abroad, we guarantee that our installation services are available to you.
-Hassle-Free Setup: We handle everything from calibration to final checks, ensuring you have zero downtime.
-
+<ul>
+<li>On-Site Expertise:</li> Our installation specialists will visit your site to carry out a comprehensive, no-cost installation of your equipment.
+<li>Global Reach:</li> Whether you're based in a metropolitan city in India or a remote location abroad, we guarantee that our installation services are available to you.
+<li>Hassle-Free Setup:</li> We handle everything from calibration to final checks, ensuring you have zero downtime.
+</ul>
     </p>
   </div>
 
@@ -73,11 +73,11 @@ Hassle-Free Setup: We handle everything from calibration to final checks, ensuri
     <p className="text-gray-600 max-h-20 overflow-hidden hover:max-h-full transition-all duration-300">
     When you choose Technofast Equipments, you’re investing in peace of mind. We proudly offer a one-year warranty on all of our products. This warranty is our promise to you that we stand behind our equipment, with continuous support for a full year after purchase.
 Whether you're an Indian customer or a client from another part of the world, you can count on us to provide you with exceptional after-sales service. Our expert team is always ready to assist with any issues, ensuring that your equipment operates at its best, day in and day out.
-
-Comprehensive Coverage: The warranty covers manufacturing defects and ensures your equipment stays in optimal condition.
-Global Support: Our dedicated customer service team is available for international clients as well, offering remote troubleshooting and fast resolution to issues—no matter your location.
-No Hidden Costs: With a one-year warranty, you won’t have to worry about unexpected repair expenses.
-
+<ul>
+<li>Comprehensive Coverage:</li> The warranty covers manufacturing defects and ensures your equipment stays in optimal condition.
+<li>Global Support:</li> Our dedicated customer service team is available for international clients as well, offering remote troubleshooting and fast resolution to issues—no matter your location.
+<li>No Hidden Costs:</li> With a one-year warranty, you won’t have to worry about unexpected repair expenses.
+</ul>
     </p>
   </div>
 </div>
