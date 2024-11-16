@@ -472,8 +472,8 @@ Whether you're an Indian customer or a client from another part of the world, yo
 
         <section className="bg-white py-16">
           <div className="container mx-auto px-6 text-center">
-            <h2 className="text-4xl font-bold text-slate-950 hover:text-green-800 mb-4">Let's Talk Business</h2>
-            <p className="text-lg text-green-800 mb-8">
+            <h2 className="text-4xl font-bold text-slate-950  mb-4 font-serif">Let's Talk Business</h2>
+            <p className="text-lg text-slate-700 font-thin mb-8">
               Whether you're looking for collaboration or want to learn more about our services, we're here to help. Let's discuss how we can work together!
             </p>
 
@@ -483,43 +483,43 @@ Whether you're an Indian customer or a client from another part of the world, yo
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* <!-- Contact Form --> */}
               <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-semibold text-white mb-6">Send Us a Message</h3>
+                <h3 className="text-2xl font-serif text-white mb-6">Send Us a Message</h3>
                 <form action="#">
                   <div className="mb-4">
-                    <label className="block text-sm font-medium text-white">Your Name</label>
+                    <label className="block text-sm font-serif text-white">Your Name</label>
                     <input type="text" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-black" placeholder="enter your name" />
                   </div>
                   <div className="mb-4">
-                    <label className="block text-sm font-medium text-white">Email Address</label>
+                    <label className="block text-sm font-serif text-white">Email Address</label>
                     <input type="email" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500  text-black" placeholder="you@example.com" />
                   </div>
                   <div className="mb-4">
-                    <label className="block text-sm font-medium text-white">Message</label>
+                    <label className="block text-sm font-serif text-white">Message</label>
                     <textarea rows="4" className="mt-1 p-3 w-full border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 text-black" placeholder="Type your message here..."></textarea>
                   </div>
-                  <button type="submit" className="w-full bg-black text-white py-3 rounded-lg shadow-lg hover:bg-white hover:text-black transition duration-300">Send Message</button>
+                  <button type="submit" className="w-full bg-white text-black py-3 rounded-lg shadow-lg  hover:bg-blue-400 transition duration-300 font-bold">Send Message</button>
                 </form>
               </div>
 
               {/* <!-- Contact Information --> */}
               <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-semibold text-gray-800 mb-6">Contact Information</h3>
+                <h3 className="text-2xl font-serif text-gray-800 mb-6"><b>Contact Information</b></h3>
                 <ul>
                   <li className="mb-4">
-                    <span className="block text-sm font-medium text-gray-600">Address</span>
-                    <p className="text-lg text-gray-800">Gali No.1 Near Beri Ka Bagh Malerna Road, Adarsh Nagar,<br />Sector-63 Ballabgarh, Faridabad, Haryana – 121004</p>
+                    <span className="block text-sm font-serif text-black">Address</span>
+                    <p className="text-lg text-white font-semibold">Gali No.1 Near Beri Ka Bagh Malerna Road, Adarsh Nagar,<br />Sector-63 Ballabgarh, Faridabad, Haryana – 121004</p>
                   </li>
                   <li className="mb-4">
-                    <span className="block text-sm font-medium text-gray-600">Email</span>
-                    <p className="text-lg text-gray-800">technofastequipments@gmail.com</p>
+                    <span className="block text-sm font-serif text-black">Email</span>
+                    <p className="text-lg text-white">www.technofastequipments@gmail.com</p>
                   </li>
                   <li className="mb-4">
-                    <span className="block text-sm font-medium text-gray-600">Phone</span>
-                    <p className="text-lg text-gray-800"></p>
+                    <span className="block text-sm font-serif text-black">Phone</span>
+                    <p className="text-lg text-white">+918930109050, +919467751411, +917988309282</p>
                   </li>
                   <li className="mb-4">
-                    <span className="block text-sm font-medium text-gray-600">Working Hours</span>
-                    <p className="text-lg text-gray-800">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    <span className="block text-sm font-serif text-black">Working Hours</span>
+                    <p className="text-lg text-white">Mon - Fri: 9:00 AM - 6:00 PM</p>
                   </li>
                 </ul>
               </div>

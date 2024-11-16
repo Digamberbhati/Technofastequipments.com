@@ -9,13 +9,7 @@ const CompanyProfile = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Section: Image or Icon and Text */}
           <div className="flex flex-col items-center text-center md:text-left">
-            <div className="w-24 h-24 bg-gray-800 rounded-full flex items-center justify-center">
-              {/* Placeholder for an icon */}
-              <svg className="w-12 h-12 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.121 17.804A5.987 5.987 0 0112 16c1.657 0 3.156.672 4.121 1.804M9 10a4 4 0 118 0 4 4 0 01-8 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14v4m-2-4a2 2 0 114 0m-6 0a6 6 0 1112 0" />
-              </svg>
-            </div>
+           <img src="https://i.postimg.cc/2yB5m7RC/logo.png" alt="logo" />
             <h3 className="mt-4 text-xl font-semibold text-black">Phoebe Caulfield</h3>
             <div className="mt-2 h-0.5 bg-blue-500 w-16"></div>
             <p className="mt-4 text-sm leading-relaxed text-slate-800">
