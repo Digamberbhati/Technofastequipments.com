@@ -80,6 +80,8 @@ const Homepage = () => {
         </div>
 
 
+        
+
 
 
         {/* image section */}
@@ -215,6 +217,62 @@ Whether you're an Indian customer or a client from another part of the world, yo
 
 
         {/* container section */}
+
+{/* why choose us */}
+<div className="bg-gradient-to-r from-gray-100 to-gray-200 py-16">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center">
+      <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl">Why Choose Us?</h2>
+      <p className="mt-4 text-lg text-gray-600">
+        A seamless blend of expertise, quality, and trust. Here's what sets us apart.
+      </p>
+    </div>
+    <div className="mt-12 relative flex justify-center">
+      {/* <!-- Timeline --> */}
+      <div className="absolute w-full h-1 bg-gray-300 top-1/2 transform -translate-y-1/2"></div>
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 relative z-10">
+        {/* <!-- Step 1 --> */}
+        <div className="flex flex-col items-center text-center">
+          <div className="flex items-center justify-center w-20 h-20 bg-blue-500 rounded-full">
+            <svg className="w-10 h-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m2 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 className="mt-4 text-xl font-semibold text-gray-800">Innovative Solutions</h3>
+          <p className="mt-2 text-gray-600">
+            We design creative, cutting-edge solutions tailored to your needs.
+          </p>
+        </div>
+
+        {/* <!-- Step 2 --> */}
+        <div className="flex flex-col items-center text-center">
+          <div className="flex items-center justify-center w-20 h-20 bg-green-500 rounded-full">
+            <svg className="w-10 h-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <h3 className="mt-4 text-xl font-semibold text-gray-800">Proven Quality</h3>
+          <p className="mt-2 text-gray-600">
+            Our track record speaks for itself, with consistent results every time.
+          </p>
+        </div>
+
+        {/* <!-- Step 3 --> */}
+        <div className="flex flex-col items-center text-center">
+          <div className="flex items-center justify-center w-20 h-20 bg-red-500 rounded-full">
+            <svg className="w-10 h-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1 0h.01m-6.938 4h13.856c.07 0 .137.01.203.029a2 2 0 01-.203-.029L12 7l-5.938 9z" />
+            </svg>
+          </div>
+          <h3 className="mt-4 text-xl font-semibold text-gray-800">Trusted by Clients</h3>
+          <p className="mt-2 text-gray-600">
+            Join our community of satisfied customers who trust us with their needs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
         
