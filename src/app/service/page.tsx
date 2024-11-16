@@ -8,16 +8,16 @@ const Servicepage = () => {
    <br/>
    <br/>
    <br/>
-   <br/> <br/>
-   <br/>
+
 
    <section className="bg-gray-50 py-16 px-8">
-  <div className="max-w-7xl mx-auto text-center">
-    <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
-    <p className="text-gray-600 text-lg mb-10">
-      We offer a range of innovative and customer-focused services designed to meet your needs. Discover how we can help you achieve your goals.
-    </p>
-  </div>
+   <div className="max-w-7xl mx-auto text-center">
+  <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
+  <p className="text-gray-600 text-lg mb-10">
+    Unlock the full potential of your business with our tailored services—delivering excellence, precision, and peace of mind with every product, installation, and support we provide.
+  </p>
+</div>
+
 
 
 
@@ -30,7 +30,7 @@ const Servicepage = () => {
       </svg>
     </div>
     <h3 className="text-xl font-semibold text-gray-800 mb-2">On-Time Free Delivery</h3>
-    <p className="text-gray-600 max-h-20 overflow-hidden hover:max-h-full transition-all duration-300">
+    <p className="text-gray-600">
       When you choose Technofast Equipments, you’re investing in peace of mind. We proudly offer a one-year warranty on all of our products. This warranty is our promise to you that we stand behind our equipment, with continuous support for a full year after purchase.
       Whether you're an Indian customer or a client from another part of the world, you can count on us to provide you with exceptional after-sales service. Our expert team is always ready to assist with any issues, ensuring that your equipment operates at its best, day in and day out.
       <ul>
@@ -51,7 +51,7 @@ const Servicepage = () => {
       </svg>
     </div>
     <h3 className="text-xl font-semibold text-gray-800 mb-2"> Free Installation Services</h3>
-    <p className="text-gray-600 max-h-20 overflow-hidden hover:max-h-full transition-all duration-300">
+    <p className="text-gray-600">
     Setting up high-tech equipment should never be a hassle. That's why Technofast Equipments offers free professional installation for all of our products. Our highly trained technicians will ensure that your metal detectors and related equipment are installed with precision, optimized for peak performance, and ready to use immediately.
 From complex pharmaceutical applications in India to sophisticated food safety measures across global industries, we ensure that every installation meets the highest standards of quality and compliance.
 <ul>
@@ -70,7 +70,7 @@ From complex pharmaceutical applications in India to sophisticated food safety m
       </svg>
     </div>
     <h3 className="text-xl font-semibold text-gray-800 mb-2">One-Year Warranty</h3>
-    <p className="text-gray-600 max-h-20 overflow-hidden hover:max-h-full transition-all duration-300">
+    <p className="text-gray-600">
     When you choose Technofast Equipments, you’re investing in peace of mind. We proudly offer a one-year warranty on all of our products. This warranty is our promise to you that we stand behind our equipment, with continuous support for a full year after purchase.
 Whether you're an Indian customer or a client from another part of the world, you can count on us to provide you with exceptional after-sales service. Our expert team is always ready to assist with any issues, ensuring that your equipment operates at its best, day in and day out.
 <ul>
