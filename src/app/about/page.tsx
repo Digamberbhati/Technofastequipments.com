@@ -13,15 +13,16 @@ const CompanyProfile = () => {
             <h3 className="mt-4 text-xl font-semibold text-black">Technofast Equipments Pvt.Ltd</h3>
             <div className="mt-2 h-0.5 bg-blue-500 w-16"></div>
             <p className="mt-4 text-sm leading-relaxed text-slate-800">
-              Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.
+            We Provide Reliable & Innvoative Soulution For Checking Metal Contamination In Food Pocessing Line
             </p>
           </div>
 
           {/* Right Section: Text Content */}
           <div>
+            
             <p className="leading-relaxed text-black">
-              Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party.
-            </p>
+           
+             </p>
             <a href="#" className="inline-block mt-4 text-blue-500 hover:text-blue-300 transition duration-300">
               Learn More →
             </a>
