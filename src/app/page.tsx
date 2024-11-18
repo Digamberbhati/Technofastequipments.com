@@ -60,9 +60,11 @@ const Homepage = () => {
   Join us
 </a> */}
 
-            <PulsatingButton>Join Us</PulsatingButton>
+          
 
-
+<a href="/contact" className="inline-block mt-4 text-blue-500 hover:text-blue-300 transition duration-300"><PulsatingButton>
+Join Us</PulsatingButton>
+            </a> 
 
 
           </div>
