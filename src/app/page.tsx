@@ -47,10 +47,10 @@ const Homepage = () => {
           <br />
           <p className="text-lg mb-6">Discover our amazing services and products tailored just for you.</p>
 
-
-          <PulsatingButton>
-            <Link href="/contact">Join Us</Link>
-          </PulsatingButton>
+          
+            <PulsatingButton>
+  <Link href="/contact">Join Us</Link>
+</PulsatingButton>
 
         </div>
       </div>
