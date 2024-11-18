@@ -11,25 +11,24 @@ import Image from "next/image"
 const Homepage = () => {
   return (
     <>
-      <div className="relative h-screen w-full">
-        {/* Background Image */}
-        {/* <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/background image.jpg)' }}> */}
-
-        <div className="text-2xl font-bold">
-            <Link href="/">
-              {/* <img
-                src="\img\logo.png" // Replace with the actual path to your logo
-                alt="Logo"
-                className="h-8 w-auto" // Adjust height/width as needed
-              /> */}
-                 <Image
-                src="/public\matal detection.jpg" // Replace with the actual path to your logo
-                alt="Logo"
-                width={100}
-                height={50} // Adjust height/width as needed
-              />
-            </Link>
-          </div>
+      
+      <div
+        className="relative h-screen w-full bg-cover bg-center"
+        style={{
+          backgroundImage: "url('/background-image.jpg')", // Replace with your actual background image path
+        }}
+      >
+        {/* Logo Section */}
+        <div className="text-2xl font-bold absolute top-4 left-4">
+          <Link href="/">
+            <Image
+              src="/background image.jpg" // Replace with the actual path to your logo
+              alt="Logo"
+              width={100}
+              height={50} // Adjust height/width as needed
+            />
+          </Link>
+        </div>
           {/* Overlay */}
 
           <div className="absolute inset-0 opacity-1"></div>
@@ -50,20 +49,10 @@ const Homepage = () => {
             <br />
             <p className="text-lg mb-6">Discover our amazing services and products tailored just for you.</p>
 
-
-            {/* <a href="#services" className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
-              Join us
-            </a> */}
-
-            {/* <a href="#services" 
-   className="px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 sm:px-8 sm:py-4 md:px-10 md:py-5">
-  Join us
-</a> */}
-
-            <PulsatingButton>Join Us</PulsatingButton>
-
-
-
+          
+            <PulsatingButton>
+  <Link href="/contact">Join Us</Link>
+</PulsatingButton>
 
           </div>
         </div>
