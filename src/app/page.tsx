@@ -22,8 +22,8 @@ const Homepage = () => {
             <Image
               src="/background image.jpg" // Replace with the actual path to your logo
               alt="Logo"
-              width={100}
-              height={50} // Adjust height/width as needed
+              width={300}
+              height={200} // Adjust height/width as needed
             />
           </Link>
         </div>
