@@ -83,11 +83,6 @@ const Homepage = () => {
           </div>
         </div>
 
-
-
-
-
-
         {/* image section */}
         <div className="text-center mx-44 py-6" >
           <h1 className="font-serif text-4xl text-black ">
@@ -195,10 +190,6 @@ const Homepage = () => {
               </p>
             </div>
           </div>
-
-
-
-
           <div className="mt-12 text-center">
             <a href="#"
               className="bg-blue-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300">
@@ -206,9 +197,6 @@ const Homepage = () => {
             </a>
           </div>
         </section>
-
-
-
         {/* container section */}
 
         {/* why choose us */}
@@ -343,11 +331,8 @@ const Homepage = () => {
               </div>
             </div>
           </section>
-
         </div>
-
         {/* talk section */}
-
         <section className="bg-white py-16">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold text-slate-950  mb-4 font-serif">Let's Talk Business</h2>
@@ -356,8 +341,6 @@ const Homepage = () => {
             </p>
 
             {/* <section className="bg-white py-16"> */}
-
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* <!-- Contact Form --> */}
               <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8 rounded-lg shadow-lg">
@@ -403,17 +386,9 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-
-
-
         </section>
-
-
       </section>
-
-
     </>
   );
 };
-
 export default Homepage;
